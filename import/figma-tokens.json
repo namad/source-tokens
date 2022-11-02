@@ -1886,32 +1886,32 @@
     },
     "button": {
       "rest-bg": {
-        "value": "#b6cdd93d",
+        "value": "$utility.tint.400",
         "type": "color",
         "description": "utility/tint/400"
       },
       "rest-border": {
-        "value": "#ffffff00",
+        "value": "$utility.transparent",
         "type": "color",
         "description": "utility/transparent"
       },
       "hover-bg": {
-        "value": "#b6cdd933",
+        "value": "$utility.tint.300",
         "type": "color",
         "description": "utility/tint/300"
       },
       "hover-border": {
-        "value": "#4a5459",
+        "value": "$stroke.base.400",
         "type": "color",
         "description": "stroke/base/400"
       },
       "active-bg": {
-        "value": "#b6cdd91f",
+        "value": "$utility.tint.200",
         "type": "color",
         "description": "utility/tint/200"
       },
       "active-border": {
-        "value": "#373f43",
+        "value": "$stroke.base.300",
         "type": "color",
         "description": "stroke/base/300"
       },
@@ -2535,90 +2535,24 @@
       "button-chrome :active": {
         "value": [
           {
-            "color": "$utility.tint.300",
+            "color": "$utility.tint.400",
             "type": "innerShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 0,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0"
           },
           {
             "color": "$utility.shade.400",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0"
           }
         ],
         "type": "boxShadow"
       }
-    }
-  },
-  "spacing compact": {
-    "sy-xxs": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "sy-xs": {
-      "value": "6",
-      "type": "spacing"
-    },
-    "sy-sm": {
-      "value": "8",
-      "type": "spacing"
-    },
-    "sy-base": {
-      "value": "12",
-      "type": "spacing"
-    },
-    "sy-md": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "sy-lg": {
-      "value": "20",
-      "type": "spacing"
-    },
-    "sy-xl": {
-      "value": "24",
-      "type": "spacing"
-    },
-    "sx-xxs": {
-      "value": "6",
-      "type": "spacing"
-    },
-    "sx-xs": {
-      "value": "8",
-      "type": "spacing"
-    },
-    "sx-sm": {
-      "value": "12",
-      "type": "spacing"
-    },
-    "sx-base": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "sx-md": {
-      "value": "20",
-      "type": "spacing"
-    },
-    "sx-lg": {
-      "value": "24",
-      "type": "spacing"
-    },
-    "sx-xl": {
-      "value": "32",
-      "type": "spacing"
-    },
-    "sx-xl-2": {
-      "value": "48",
-      "type": "spacing"
-    },
-    "sx-xl-3": {
-      "value": "64",
-      "type": "spacing"
     }
   },
   "shadows & effects": {
@@ -3272,6 +3206,72 @@
           "type": "boxShadow"
         }
       }
+    }
+  },
+  "spacing compact": {
+    "sy-xxs": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "sy-xs": {
+      "value": "6",
+      "type": "spacing"
+    },
+    "sy-sm": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "sy-base": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "sy-md": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "sy-lg": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "sy-xl": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "sx-xxs": {
+      "value": "6",
+      "type": "spacing"
+    },
+    "sx-xs": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "sx-sm": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "sx-base": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "sx-md": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "sx-lg": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "sx-xl": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "sx-xl-2": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "sx-xl-3": {
+      "value": "64",
+      "type": "spacing"
     }
   },
   "$themes": [],
