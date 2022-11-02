@@ -536,32 +536,32 @@
           },
           "shade": {
               "100": {
-                  "value": "rgba($utility/black, 5%)",
+                  "value": "rgba($utility.black, 5%)",
                   "type": "color",
                   "description": "utility/black, 5%"
               },
               "200": {
-                  "value": "rgba($utility/black, 10%)",
+                  "value": "rgba($utility.black, 10%)",
                   "type": "color",
                   "description": "utility/black, 10%"
               },
               "300": {
-                  "value": "rgba($utility/black, 15%)",
+                  "value": "rgba($utility.black, 15%)",
                   "type": "color",
                   "description": "utility/black, 15%"
               },
               "400": {
-                  "value": "rgba($utility/black, 20%)",
+                  "value": "rgba($utility.black, 20%)",
                   "type": "color",
                   "description": "utility/black, 20%"
               },
               "500": {
-                  "value": "rgba($utility/black, 30%)",
+                  "value": "rgba($utility.black, 30%)",
                   "type": "color",
                   "description": "utility/black, 30%"
               },
               "600": {
-                  "value": "rgba($utility/black, 40%)",
+                  "value": "rgba($utility.black, 40%)",
                   "type": "color",
                   "description": "utility/black, 40%"
               },
@@ -669,7 +669,7 @@
                   "description": "utility/transparent"
               },
               "bottom-border-tint": {
-                  "value": "rgba($utility/black, 10%)",
+                  "value": "rgba($utility.black, 10%)",
                   "type": "color",
                   "description": "utility/shade/200"
               },
@@ -1288,7 +1288,7 @@
               },
               "200": {
                   "value": {
-                      "color": "rgba($utility/black, 10%)",
+                      "color": "rgba($utility.black, 10%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -1299,7 +1299,7 @@
               },
               "300": {
                   "value": {
-                      "color": "rgba($utility/black, 15%)",
+                      "color": "rgba($utility.black, 15%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -1310,7 +1310,7 @@
               },
               "400": {
                   "value": {
-                      "color": "rgba($utility/black, 20%)",
+                      "color": "rgba($utility.black, 20%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -1321,7 +1321,7 @@
               },
               "500": {
                   "value": {
-                      "color": "rgba($utility/black, 30%)",
+                      "color": "rgba($utility.black, 30%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -1335,7 +1335,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1343,7 +1343,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1356,7 +1356,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1364,7 +1364,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1377,7 +1377,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1385,7 +1385,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1398,7 +1398,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1406,7 +1406,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1419,7 +1419,7 @@
               "500": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1427,7 +1427,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -1442,7 +1442,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -1450,7 +1450,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1463,7 +1463,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -1471,7 +1471,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1484,7 +1484,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -1492,7 +1492,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1505,7 +1505,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -1513,7 +1513,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1526,7 +1526,7 @@
               "500": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -1534,7 +1534,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1549,7 +1549,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1557,7 +1557,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -1570,7 +1570,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1578,7 +1578,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -1591,7 +1591,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1599,7 +1599,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -1612,7 +1612,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1620,7 +1620,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -1633,7 +1633,7 @@
               "500": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -1641,7 +1641,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -1656,7 +1656,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -1664,7 +1664,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -1677,7 +1677,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -1685,7 +1685,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -1698,7 +1698,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -1706,7 +1706,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -1719,7 +1719,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -1727,7 +1727,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -1740,7 +1740,7 @@
               "500": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -1748,7 +1748,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -1763,7 +1763,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 5%)",
+                          "color": "rgba($utility.black, 5%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -1771,7 +1771,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -1784,7 +1784,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -1792,7 +1792,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -1805,7 +1805,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 15%)",
+                          "color": "rgba($utility.black, 15%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -1813,7 +1813,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -1826,7 +1826,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -1834,7 +1834,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -1847,7 +1847,7 @@
               "500": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -1855,7 +1855,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -1892,7 +1892,7 @@
           "button-chrome": {
               "value": [
                   {
-                      "color": "rgba($utility/black, 10%)",
+                      "color": "rgba($utility.black, 10%)",
                       "type": "innerShadow",
                       "x": 0,
                       "y": -1,
@@ -1912,7 +1912,7 @@
           },
           "button-chrome :active": {
               "value": {
-                  "color": "rgba($utility/black, 15%)",
+                  "color": "rgba($utility.black, 15%)",
                   "type": "innerShadow",
                   "x": 0,
                   "y": 1,
@@ -3249,7 +3249,7 @@
           "layer-1": {
               "100": {
                   "value": {
-                      "color": "rgba($utility/black, 10%)",
+                      "color": "rgba($utility.black, 10%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3260,7 +3260,7 @@
               },
               "200": {
                   "value": {
-                      "color": "rgba($utility/black, 20%)",
+                      "color": "rgba($utility.black, 20%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3271,7 +3271,7 @@
               },
               "300": {
                   "value": {
-                      "color": "rgba($utility/black, 30%)",
+                      "color": "rgba($utility.black, 30%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3282,7 +3282,7 @@
               },
               "400": {
                   "value": {
-                      "color": "rgba($utility/black, 40%)",
+                      "color": "rgba($utility.black, 40%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3307,7 +3307,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3315,7 +3315,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3328,7 +3328,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3336,7 +3336,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3349,7 +3349,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3357,7 +3357,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3370,7 +3370,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3378,7 +3378,7 @@
                           "spread": -1
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 1,
@@ -3414,7 +3414,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -3422,7 +3422,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3435,7 +3435,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -3443,7 +3443,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3456,7 +3456,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -3464,7 +3464,7 @@
                           "spread": -2
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3477,7 +3477,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 2,
@@ -3521,7 +3521,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3529,7 +3529,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -3542,7 +3542,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3550,7 +3550,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -3563,7 +3563,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3571,7 +3571,7 @@
                           "spread": -4
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 10,
@@ -3584,7 +3584,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 4,
@@ -3628,7 +3628,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -3636,7 +3636,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -3649,7 +3649,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -3657,7 +3657,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -3670,7 +3670,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -3678,7 +3678,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 20,
@@ -3691,7 +3691,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 8,
@@ -3735,7 +3735,7 @@
               "100": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 10%)",
+                          "color": "rgba($utility.black, 10%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -3743,7 +3743,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -3756,7 +3756,7 @@
               "200": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 20%)",
+                          "color": "rgba($utility.black, 20%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -3764,7 +3764,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -3777,7 +3777,7 @@
               "300": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 30%)",
+                          "color": "rgba($utility.black, 30%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -3785,7 +3785,7 @@
                           "spread": -6
                       },
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 30,
@@ -3798,7 +3798,7 @@
               "400": {
                   "value": [
                       {
-                          "color": "rgba($utility/black, 40%)",
+                          "color": "rgba($utility.black, 40%)",
                           "type": "dropShadow",
                           "x": 0,
                           "y": 12,
@@ -3843,7 +3843,7 @@
           "button-secondary": {
               "value": [
                   {
-                      "color": "rgba($utility/black, 5%)",
+                      "color": "rgba($utility.black, 5%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3884,7 +3884,7 @@
           },
           "input-box": {
               "value": {
-                  "color": "rgba($utility/black, 5%)",
+                  "color": "rgba($utility.black, 5%)",
                   "type": "innerShadow",
                   "x": 0,
                   "y": 2,
@@ -3898,7 +3898,7 @@
           "input-box": {
               "value": [
                   {
-                      "color": "rgba($utility/black, 5%)",
+                      "color": "rgba($utility.black, 5%)",
                       "type": "dropShadow",
                       "x": 0,
                       "y": 1,
@@ -3906,7 +3906,7 @@
                       "spread": 0
                   },
                   {
-                      "color": "rgba($utility/black, 5%)",
+                      "color": "rgba($utility.black, 5%)",
                       "type": "innerShadow",
                       "x": 0,
                       "y": 2,
