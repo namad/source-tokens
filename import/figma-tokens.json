@@ -2501,7 +2501,7 @@
             "spread": "0"
           },
           {
-            "color": "$utility.tint.100",
+            "color": "$utility.shade.100",
             "type": "innerShadow",
             "x": "0",
             "y": "2",
