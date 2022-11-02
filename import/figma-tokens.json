@@ -2533,14 +2533,24 @@
         "type": "boxShadow"
       },
       "button-chrome :active": {
-        "value": {
-          "color": "$utility.shade.100",
-          "type": "innerShadow",
-          "x": 0,
-          "y": 1,
-          "blur": 0,
-          "spread": 0
-        },
+        "value": [
+          {
+            "color": "$utility.tint.300",
+            "type": "innerShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 0,
+            "spread": 0
+          },
+          {
+            "color": "$utility.shade.400",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          }
+        ],
         "type": "boxShadow"
       }
     }
