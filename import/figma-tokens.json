@@ -1892,20 +1892,20 @@
       "button-chrome": {
         "value": [
           {
-            "color": "rgba($utility.black, 10%)",
+            "color": "$utility.shade.200",
             "type": "innerShadow",
-            "x": 0,
-            "y": -1,
-            "blur": 0,
-            "spread": 0
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0"
           },
           {
-            "color": "#0e101108",
+            "color": "$utility.shade.100",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 0.5,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "0.5",
+            "spread": "0"
           }
         ],
         "type": "boxShadow"
@@ -3142,61 +3142,61 @@
     },
     "focus-ring": {
       "base": {
-          "value": {
-              "color": "rgba($primary.500, 50%)",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 0,
-              "blur": 0,
-              "spread": 3
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($primary.500, 50%)",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3
+        },
+        "type": "boxShadow"
       },
       "red": {
-          "value": {
-              "color": "rgba($danger.500, 50%)",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 0,
-              "blur": 0,
-              "spread": 3
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($danger.500, 50%)",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3
+        },
+        "type": "boxShadow"
       },
       "amber": {
-          "value": {
-              "color": "rgba($warning.500, 50%)",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 0,
-              "blur": 0,
-              "spread": 3
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($warning.500, 50%)",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3
+        },
+        "type": "boxShadow"
       },
       "green": {
-          "value": {
-              "color": "rgba($success.500, 50%)",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 0,
-              "blur": 0,
-              "spread": 3
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($success.500, 50%)",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3
+        },
+        "type": "boxShadow"
       },
       "teal": {
-          "value": {
-              "color": "rgba($info.500, 50%)",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 0,
-              "blur": 0,
-              "spread": 3
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($info.500, 50%)",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3
+        },
+        "type": "boxShadow"
       }
-  },
+    },
     "elevate": {
       "layer-1": {
         "100": {
@@ -3848,59 +3848,59 @@
     },
     "sfx": {
       "input-chrome": {
-          "value": [
-              {
-                  "color": "$utility.shade.100",
-                  "type": "dropShadow",
-                  "x": "0",
-                  "y": "1",
-                  "blur": "0.5",
-                  "spread": "0"
-              },
-              {
-                  "color": "$utility.shade.100",
-                  "type": "innerShadow",
-                  "x": "0",
-                  "y": "2",
-                  "blur": "0",
-                  "spread": "0"
-              }
-          ],
-          "type": "boxShadow"
+        "value": [
+          {
+            "color": "$utility.shade.100",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "0.5",
+            "spread": "0"
+          },
+          {
+            "color": "$utility.shade.100",
+            "type": "innerShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "0",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
       },
       "button-chrome": {
-          "value": [
-              {
-                  "color": "rgba($utility.black, 10%)",
-                  "type": "innerShadow",
-                  "x": 0,
-                  "y": -1,
-                  "blur": 0,
-                  "spread": 0
-              },
-              {
-                  "color": "#0e101108",
-                  "type": "dropShadow",
-                  "x": 0,
-                  "y": 1,
-                  "blur": 0.5,
-                  "spread": 0
-              }
-          ],
-          "type": "boxShadow"
+        "value": [
+          {
+            "color": "rgba($utility.black, 10%)",
+            "type": "innerShadow",
+            "x": 0,
+            "y": -1,
+            "blur": 0,
+            "spread": 0
+          },
+          {
+            "color": "#0e101108",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 0.5,
+            "spread": 0
+          }
+        ],
+        "type": "boxShadow"
       },
       "button-chrome :active": {
-          "value": {
-              "color": "rgba($utility.black, 15%)",
-              "type": "innerShadow",
-              "x": 0,
-              "y": 1,
-              "blur": 0,
-              "spread": 0
-          },
-          "type": "boxShadow"
+        "value": {
+          "color": "rgba($utility.black, 15%)",
+          "type": "innerShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 0,
+          "spread": 0
+        },
+        "type": "boxShadow"
       }
-  }
+    }
   },
   "spacing compact": {
     "sy-xxs": {
@@ -3968,14 +3968,12 @@
       "type": "spacing"
     }
   },
+  "$themes": [],
   "$metadata": {
-    "version": "125",
-    "updatedAt": "2022-11-02T21:38:40.048Z",
     "tokenSetOrder": [
       "light mode",
       "dark mode",
       "spacing compact"
     ]
-  },
-  "$themes": []
+  }
 }
