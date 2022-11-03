@@ -409,32 +409,32 @@
     },
     "button": {
       "rest-bg": {
-        "value": "#ffffffcc",
+        "value": "$utility.tint.400",
         "type": "color",
         "description": "utility/tint/400"
       },
       "rest-border": {
-        "value": "#d2d8db",
+        "value": "$stroke.base.300",
         "type": "color",
         "description": "stroke/base/300"
       },
       "hover-bg": {
-        "value": "#05202e0a",
+        "value": "$alt.base.100",
         "type": "color",
         "description": "alt/base/100"
       },
       "hover-border": {
-        "value": "#afb4b6",
+        "value": "$stroke.base.400",
         "type": "color",
         "description": "stroke/base/400"
       },
       "active-bg": {
-        "value": "#ffffff99",
+        "value": "$utility.tint.200",
         "type": "color",
         "description": "utility/tint/200"
       },
       "active-border": {
-        "value": "#d2d8db",
+        "value": "$stroke.base.300",
         "type": "color",
         "description": "stroke/base/300"
       },
