@@ -294,70 +294,6 @@
         }
       }
     },
-    "primary": {
-      "100": {
-        "value": "#6bb3fa26",
-        "type": "color",
-        "description": "accent/blue/100"
-      },
-      "200": {
-        "value": "#6bb3fa40",
-        "type": "color",
-        "description": "accent/blue/200"
-      },
-      "300": {
-        "value": "#0773df",
-        "type": "color",
-        "description": "accent/blue/300"
-      },
-      "400": {
-        "value": "#0666c6",
-        "type": "color",
-        "description": "accent/blue/400"
-      },
-      "500": {
-        "value": "#0559ad",
-        "type": "color",
-        "description": "accent/blue/500"
-      },
-      "600": {
-        "value": "#6bb3fa",
-        "type": "color",
-        "description": "accent/blue/600"
-      }
-    },
-    "secondary": {
-      "100": {
-        "value": "#61c7fa26",
-        "type": "color",
-        "description": "solid/cyan/100, 15%"
-      },
-      "200": {
-        "value": "#61c7fa40",
-        "type": "color",
-        "description": "solid/cyan/100, 25%"
-      },
-      "300": {
-        "value": "#0790d5",
-        "type": "color",
-        "description": "solid/cyan/300"
-      },
-      "400": {
-        "value": "#067fbc",
-        "type": "color",
-        "description": "solid/cyan/400"
-      },
-      "500": {
-        "value": "#056fa3",
-        "type": "color",
-        "description": "solid/cyan/500"
-      },
-      "600": {
-        "value": "#61c7fa",
-        "type": "color",
-        "description": "solid/cyan/100"
-      }
-    },
     "gradient": {
       "primary": {
         "value": "linear-gradient(180deg, #0880f7 0%, #0773df 100%)",
@@ -757,6 +693,38 @@
           "description": "solid/teal/100"
         }
       },
+      "cyan": {
+        "100": {
+          "value": "#61c7fa26",
+          "type": "color",
+          "description": "solid/cyan/100, 15%"
+        },
+        "200": {
+          "value": "#61c7fa40",
+          "type": "color",
+          "description": "solid/cyan/100, 25%"
+        },
+        "300": {
+          "value": "#0790d5",
+          "type": "color",
+          "description": "solid/cyan/300"
+        },
+        "400": {
+          "value": "#067fbc",
+          "type": "color",
+          "description": "solid/cyan/400"
+        },
+        "500": {
+          "value": "#056fa3",
+          "type": "color",
+          "description": "solid/cyan/500"
+        },
+        "600": {
+          "value": "#61c7fa",
+          "type": "color",
+          "description": "solid/cyan/100"
+        }
+      },      
       "blue": {
         "100": {
           "value": "#6bb3fa26",
@@ -1301,70 +1269,6 @@
         }
       }
     },
-    "primary": {
-      "100": {
-        "value": "#7ab3eb1a",
-        "type": "color",
-        "description": "accent/blue/100"
-      },
-      "200": {
-        "value": "#7ab3eb33",
-        "type": "color",
-        "description": "accent/blue/200"
-      },
-      "300": {
-        "value": "#1b66b1",
-        "type": "color",
-        "description": "accent/blue/300"
-      },
-      "400": {
-        "value": "#1e73c8",
-        "type": "color",
-        "description": "accent/blue/400"
-      },
-      "500": {
-        "value": "#7ab3eb",
-        "type": "color",
-        "description": "accent/blue/500"
-      },
-      "600": {
-        "value": "#7ab3eb",
-        "type": "color",
-        "description": "accent/blue/600"
-      }
-    },
-    "secondary": {
-      "100": {
-        "value": "#71c2ea26",
-        "type": "color",
-        "description": "solid/cyan/100, 15%"
-      },
-      "200": {
-        "value": "#71c2ea40",
-        "type": "color",
-        "description": "solid/cyan/100, 25%"
-      },
-      "300": {
-        "value": "#1979a9",
-        "type": "color",
-        "description": "solid/cyan/400"
-      },
-      "400": {
-        "value": "#1d89bf",
-        "type": "color",
-        "description": "solid/cyan/300"
-      },
-      "500": {
-        "value": "#71c2ea",
-        "type": "color",
-        "description": "solid/cyan/100"
-      },
-      "600": {
-        "value": "#71c2ea",
-        "type": "color",
-        "description": "solid/cyan/100"
-      }
-    },
     "gradient": {
       "primary": {
         "value": "linear-gradient(180deg, #1b66b1 0%, #144d85 100%)",
@@ -1764,6 +1668,38 @@
           "description": "solid/teal/100"
         }
       },
+      "cyan": {
+        "100": {
+          "value": "#71c2ea26",
+          "type": "color",
+          "description": "solid/cyan/100, 15%"
+        },
+        "200": {
+          "value": "#71c2ea40",
+          "type": "color",
+          "description": "solid/cyan/100, 25%"
+        },
+        "300": {
+          "value": "#1979a9",
+          "type": "color",
+          "description": "solid/cyan/400"
+        },
+        "400": {
+          "value": "#1d89bf",
+          "type": "color",
+          "description": "solid/cyan/300"
+        },
+        "500": {
+          "value": "#71c2ea",
+          "type": "color",
+          "description": "solid/cyan/100"
+        },
+        "600": {
+          "value": "#71c2ea",
+          "type": "color",
+          "description": "solid/cyan/100"
+        }
+      },
       "blue": {
         "100": {
           "value": "#7ab3eb1a",
@@ -2024,6 +1960,70 @@
     }
   },
   "common": {
+    "primary": {
+      "100": {
+        "value": "$accent.blue.100",
+        "type": "color",
+        "description": "accent/blue/100"
+      },
+      "200": {
+        "value": "$accent.blue.200",
+        "type": "color",
+        "description": "accent/blue/200"
+      },
+      "300": {
+        "value": "$accent.blue.300",
+        "type": "color",
+        "description": "accent/blue/300"
+      },
+      "400": {
+        "value": "$accent.blue.400",
+        "type": "color",
+        "description": "accent/blue/400"
+      },
+      "500": {
+        "value": "$accent.blue.500",
+        "type": "color",
+        "description": "accent/blue/500"
+      },
+      "600": {
+        "value": "$accent.blue.600",
+        "type": "color",
+        "description": "accent/blue/600"
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "$accent.cyan.100",
+        "type": "color",
+        "description": "accent/cyan/100"
+      },
+      "200": {
+        "value": "$accent.cyan.200",
+        "type": "color",
+        "description": "accent/cyan/200"
+      },
+      "300": {
+        "value": "$accent.cyan.300",
+        "type": "color",
+        "description": "accent/cyan/300"
+      },
+      "400": {
+        "value": "$accent.cyan.400",
+        "type": "color",
+        "description": "accent/cyan/400"
+      },
+      "500": {
+        "value": "$accent.cyan.500",
+        "type": "color",
+        "description": "accent/cyan/500"
+      },
+      "600": {
+        "value": "$accent.cyan.600",
+        "type": "color",
+        "description": "accent/cyan/600"
+      }
+    },
     "danger": {
       "100": {
         "value": "$accent.red.100",
