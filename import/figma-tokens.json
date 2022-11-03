@@ -457,22 +457,22 @@
     "form-element": {
       "contrast": {
         "rest-bg": {
-          "value": "#252a2d",
+          "value": "$fill.contrast.100",
           "type": "color",
           "description": "fill/contrast/100"
         },
         "readonly-bg": {
-          "value": "#202527",
+          "value": "$fill.contrast.200",
           "type": "color",
           "description": "fill/contrast/200"
         },
         "rest-border": {
-          "value": "#4e595f",
+          "value": "$stroke.contrast.300",
           "type": "color",
           "description": "stroke/contrast/300"
         },
         "hover-border": {
-          "value": "#535f65",
+          "value": "$stroke.contrast.400",
           "type": "color",
           "description": "stroke/contrast/400"
         }
@@ -481,52 +481,52 @@
     "ui-element": {
       "contrast": {
         "rest-bg": {
-          "value": "#ffffff00",
+          "value": "$utility.transparent",
           "type": "color",
           "description": "utility/transparent"
         },
         "rest-border": {
-          "value": "#ffffff14",
+          "value": "$alt.contrast.200",
           "type": "color",
           "description": "alt/contrast/200"
         },
         "hover-bg": {
-          "value": "#ffffff14",
+          "value": "$alt.contrast.200",
           "type": "color",
           "description": "alt/contrast/200"
         },
         "hover-border": {
-          "value": "#ffffff1f",
+          "value": "$alt.contrast.300",
           "type": "color",
           "description": "alt/contrast/300"
         },
         "active-bg": {
-          "value": "#ffffff1f",
+          "value": "$alt.contrast.300",
           "type": "color",
           "description": "alt/contrast/300"
         },
         "active-border": {
-          "value": "#ffffff29",
+          "value": "$alt.contrast.400",
           "type": "color",
           "description": "alt/contrast/400"
         },
         "selected-bg": {
-          "value": "#0773df",
+          "value": "$primary.300",
           "type": "color",
           "description": "primary/300"
         },
         "selected-border": {
-          "value": "#6bb3fa",
+          "value": "$primary.600",
           "type": "color",
           "description": "primary/600"
         },
         "disabled-bg": {
-          "value": "#ffffff3d",
+          "value": "$alt.contrast.500",
           "type": "color",
           "description": "alt/contrast/500"
         },
         "disabled-border": {
-          "value": "#ffffff3d",
+          "value": "$alt.contrast.500",
           "type": "color",
           "description": "alt/contrast/500"
         }
@@ -2184,12 +2184,12 @@
         "description": "alt/base/300"
       },
       "selected-bg": {
-        "value": ".primary.300",
+        "value": "$primary.300",
         "type": "color",
         "description": "primary/300"
       },
       "selected-border": {
-        "value": ".primary.500",
+        "value": "$primary.500",
         "type": "color",
         "description": "primary/500"
       },
