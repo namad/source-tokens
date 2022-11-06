@@ -4504,7 +4504,7 @@
       }
     }
   },
-  "typography-compact": {
+  "typo-compact": {
     "font-size-xs": {
       "value": "10",
       "type": "fontSizes"
@@ -4743,7 +4743,7 @@
       "common",
       "light-base",
       "dark-elevated",
-      "typography-compact",
+      "typo-compact",
       "radii-default",
       "spacing-compact"
     ]
