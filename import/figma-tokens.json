@@ -266,6 +266,38 @@
       "1600": {
         "value": "#afb0b6",
         "type": "color"
+      },
+      "1700": {
+        "value": "#aaabb1",
+        "type": "color"
+      },
+      "1800": {
+        "value": "#a5a6ac",
+        "type": "color"
+      },
+      "1900": {
+        "value": "#a0a1a7",
+        "type": "color"
+      },
+      "2000": {
+        "value": "#9a9ca2",
+        "type": "color"
+      },
+      "2100": {
+        "value": "#95969d",
+        "type": "color"
+      },
+      "2200": {
+        "value": "#909198",
+        "type": "color"
+      },
+      "2300": {
+        "value": "#8b8d92",
+        "type": "color"
+      },
+      "2400": {
+        "value": "#84858b",
+        "type": "color"
       }
     },
     "dark": {
@@ -2318,64 +2350,64 @@
     "fill": {
       "base": {
         "100": {
-          "value": "$light.100",
+          "value": "#ffffff",
           "type": "color",
           "description": "light/100"
         },
         "200": {
-          "value": "$light.200",
+          "value": "#f8fafc",
           "type": "color",
           "description": "light/200"
         },
         "300": {
-          "value": "$light.300",
+          "value": "#f2f6f7",
           "type": "color",
           "description": "light/300"
         },
         "400": {
-          "value": "$light.400",
+          "value": "#edf1f3",
           "type": "color",
           "description": "light/400"
         },
         "500": {
-          "value": "$light.600",
+          "value": "#e1e7ea",
           "type": "color",
           "description": "light/600"
         },
         "600": {
-          "value": "$light.800",
+          "value": "#d7dde0",
           "type": "color",
           "description": "light/800"
         }
       },
       "contrast": {
         "100": {
-          "value": "$dark.1900",
+          "value": "#252a2d",
           "type": "color",
           "description": "dark/1900"
         },
         "200": {
-          "value": "$dark.2000",
+          "value": "#202527",
           "type": "color",
           "description": "dark/2000"
         },
         "300": {
-          "value": "$dark.2100",
+          "value": "#1c2022",
           "type": "color",
           "description": "dark/2100"
         },
         "400": {
-          "value": "$dark.2200",
+          "value": "#171a1c",
           "type": "color",
           "description": "dark/2200"
         },
         "500": {
-          "value": "$dark.2300",
+          "value": "#121516",
           "type": "color",
           "description": "dark/2300"
         },
         "600": {
-          "value": "$dark.2400",
+          "value": "#0e1011",
           "type": "color",
           "description": "dark/2400"
         }
@@ -2480,64 +2512,64 @@
     "stroke": {
       "base": {
         "100": {
-          "value": "$light.500",
+          "value": "#e7ecee",
           "type": "color",
           "description": "light/500"
         },
         "200": {
-          "value": "$light.700",
+          "value": "#dce2e5",
           "type": "color",
           "description": "light/700"
         },
         "300": {
-          "value": "$light.900",
+          "value": "#d2d8db",
           "type": "color",
           "description": "light/900"
         },
         "400": {
-          "value": "$light.1600",
+          "value": "#afb4b6",
           "type": "color",
           "description": "light/1600"
         },
         "500": {
-          "value": "$light.2200",
+          "value": "#909598",
           "type": "color",
           "description": "light/2200"
         },
         "600": {
-          "value": "$light.2400",
+          "value": "#71787b",
           "type": "color",
           "description": "stroke/base/600"
         }
       },
       "contrast": {
         "100": {
-          "value": "$dark.1200",
+          "value": "#454f54",
           "type": "color",
           "description": "dark/1200"
         },
         "200": {
-          "value": "$dark.1100",
+          "value": "#4a5459",
           "type": "color",
           "description": "dark/1100"
         },
         "300": {
-          "value": "$dark.1000",
+          "value": "#4e595f",
           "type": "color",
           "description": "dark/1000"
         },
         "400": {
-          "value": "$dark.900",
+          "value": "#535f65",
           "type": "color",
           "description": "dark/900"
         },
         "500": {
-          "value": "$dark.500",
+          "value": "#687378",
           "type": "color",
           "description": "dark/500"
         },
         "600": {
-          "value": "$dark.300",
+          "value": "#727d83",
           "type": "color",
           "description": "dark/300"
         }
@@ -3293,64 +3325,64 @@
     "fill": {
       "base": {
         "100": {
-          "value": "$dark.2100",
+          "value": "#1c2022",
           "type": "color",
           "description": "dark/2100"
         },
         "200": {
-          "value": "$dark.2200",
+          "value": "#171a1c",
           "type": "color",
           "description": "dark/2200"
         },
         "300": {
-          "value": "$dark.2300",
+          "value": "#121516",
           "type": "color",
           "description": "dark/2300"
         },
         "400": {
-          "value": "$dark.2400",
+          "value": "#0e1011",
           "type": "color",
           "description": "dark/2400"
         },
         "500": {
-          "value": "$dark.2500",
+          "value": "#090a0b",
           "type": "color",
           "description": "dark/2500"
         },
         "600": {
-          "value": "$dark.1300",
+          "value": "#404a4e",
           "type": "color",
           "description": "dark/1300"
         }
       },
       "contrast": {
         "100": {
-          "value": "$dark.1800",
+          "value": "#292f32",
           "type": "color",
           "description": "dark/1800"
         },
         "200": {
-          "value": "$dark.1900",
+          "value": "#252a2d",
           "type": "color",
           "description": "dark/1900"
         },
         "300": {
-          "value": "$dark.2000",
+          "value": "#202527",
           "type": "color",
           "description": "dark/2000"
         },
         "400": {
-          "value": "$dark.2100",
+          "value": "#1c2022",
           "type": "color",
           "description": "dark/2100"
         },
         "500": {
-          "value": "$dark.2200",
+          "value": "#171a1c",
           "type": "color",
           "description": "dark/2200"
         },
         "600": {
-          "value": "$dark.1300",
+          "value": "#404a4e",
           "type": "color",
           "description": "dark/1300"
         }
@@ -3455,64 +3487,64 @@
     "stroke": {
       "base": {
         "100": {
-          "value": "$dark.1800",
+          "value": "#292f32",
           "type": "color",
           "description": "dark/1800"
         },
         "200": {
-          "value": "$dark.1600",
+          "value": "#333a3e",
           "type": "color",
           "description": "dark/1600"
         },
         "300": {
-          "value": "$dark.1500",
+          "value": "#373f43",
           "type": "color",
           "description": "dark/1500"
         },
         "400": {
-          "value": "$dark.1100",
+          "value": "#4a5459",
           "type": "color",
           "description": "dark/1100"
         },
         "500": {
-          "value": "$dark.700",
+          "value": "#5e696e",
           "type": "color",
           "description": "dark/700"
         },
         "600": {
-          "value": "$dark.400",
+          "value": "#6d787e",
           "type": "color",
           "description": "dark/400"
         }
       },
       "contrast": {
         "100": {
-          "value": "$dark.1700",
+          "value": "#2e3538",
           "type": "color",
           "description": "dark/1700"
         },
         "200": {
-          "value": "$dark.1700",
+          "value": "#2e3538",
           "type": "color",
           "description": "dark/1700"
         },
         "300": {
-          "value": "$dark.1600",
+          "value": "#333a3e",
           "type": "color",
           "description": "dark/1600"
         },
         "400": {
-          "value": "$dark.1100",
+          "value": "#4a5459",
           "type": "color",
           "description": "dark/1100"
         },
         "500": {
-          "value": "$dark.500",
+          "value": "#687378",
           "type": "color",
           "description": "dark/500"
         },
         "600": {
-          "value": "$dark.200",
+          "value": "#778288",
           "type": "color",
           "description": "dark/200"
         }
