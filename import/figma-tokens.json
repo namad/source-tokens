@@ -2544,7 +2544,7 @@
       }
     }
   },
-  "light mode": {
+  "light-base": {
     "fill": {
       "base": {
         "100": {
@@ -3519,7 +3519,7 @@
       }
     }
   },
-  "dark mode": {
+  "dark-elevated": {
     "fill": {
       "base": {
         "100": {
@@ -4504,7 +4504,7 @@
       }
     }
   },
-  "typography compact": {
+  "typography-compact": {
     "font-size-xs": {
       "value": "10",
       "type": "fontSizes"
@@ -4634,7 +4634,7 @@
       }
     }
   },
-  "radii default": {
+  "radii-default": {
     "radii-none": {
       "value": "0",
       "type": "borderRadius"
@@ -4660,7 +4660,7 @@
       "type": "borderRadius"
     }
   },
-  "spacing desktop": {
+  "spacing-compact": {
     "sy-xxs": {
       "value": "4",
       "type": "spacing"
@@ -4741,11 +4741,11 @@
       "greys H200 S10",
       "greys H230 S10",
       "common",
-      "light mode",
-      "dark mode",
-      "typography compact",
-      "radii default",
-      "spacing desktop"
+      "light-base",
+      "dark-elevated",
+      "typography-compact",
+      "radii-default",
+      "spacing-compact"
     ]
   }
 }
