@@ -201,6 +201,172 @@
       }
     }
   },
+  "greys H230 S10": {
+    "light": {
+      "100": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f8f9fc",
+        "type": "color"
+      },
+      "300": {
+        "value": "#f2f3f7",
+        "type": "color"
+      },
+      "400": {
+        "value": "#edeef3",
+        "type": "color"
+      },
+      "500": {
+        "value": "#e7e8ee",
+        "type": "color"
+      },
+      "600": {
+        "value": "#e1e3ea",
+        "type": "color"
+      },
+      "700": {
+        "value": "#dcdee5",
+        "type": "color"
+      },
+      "800": {
+        "value": "#d7d8e0",
+        "type": "color"
+      },
+      "900": {
+        "value": "#d2d3db",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#cdced6",
+        "type": "color"
+      },
+      "1100": {
+        "value": "#c7c9d1",
+        "type": "color"
+      },
+      "1200": {
+        "value": "#c2c4cb",
+        "type": "color"
+      },
+      "1300": {
+        "value": "#bebfc6",
+        "type": "color"
+      },
+      "1400": {
+        "value": "#b9bac1",
+        "type": "color"
+      },
+      "1500": {
+        "value": "#b4b5bb",
+        "type": "color"
+      },
+      "1600": {
+        "value": "#afb0b6",
+        "type": "color"
+      }
+    },
+    "dark": {
+      "100": {
+        "value": "#7d808c",
+        "type": "color"
+      },
+      "200": {
+        "value": "#777a88",
+        "type": "color"
+      },
+      "300": {
+        "value": "#727583",
+        "type": "color"
+      },
+      "400": {
+        "value": "#6d707e",
+        "type": "color"
+      },
+      "500": {
+        "value": "#686b78",
+        "type": "color"
+      },
+      "600": {
+        "value": "#636574",
+        "type": "color"
+      },
+      "700": {
+        "value": "#5e616e",
+        "type": "color"
+      },
+      "800": {
+        "value": "#585b6a",
+        "type": "color"
+      },
+      "900": {
+        "value": "#535665",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#4e515f",
+        "type": "color"
+      },
+      "1100": {
+        "value": "#4a4c59",
+        "type": "color"
+      },
+      "1200": {
+        "value": "#454854",
+        "type": "color"
+      },
+      "1300": {
+        "value": "#40434e",
+        "type": "color"
+      },
+      "1400": {
+        "value": "#3c3e49",
+        "type": "color"
+      },
+      "1500": {
+        "value": "#373943",
+        "type": "color"
+      },
+      "1600": {
+        "value": "#33343e",
+        "type": "color"
+      },
+      "1700": {
+        "value": "#2e3038",
+        "type": "color"
+      },
+      "1800": {
+        "value": "#292b32",
+        "type": "color"
+      },
+      "1900": {
+        "value": "#25262d",
+        "type": "color"
+      },
+      "2000": {
+        "value": "#202127",
+        "type": "color"
+      },
+      "2100": {
+        "value": "#1c1d22",
+        "type": "color"
+      },
+      "2200": {
+        "value": "#17181c",
+        "type": "color"
+      },
+      "2300": {
+        "value": "#121316",
+        "type": "color"
+      },
+      "2400": {
+        "value": "#0e0f11",
+        "type": "color"
+      }
+    }
+  },
   "common": {
     "primary": {
       "100": {
@@ -4342,6 +4508,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "greys H200 S10",
+      "greys H230 S10",
       "common",
       "light mode",
       "dark mode",
