@@ -4065,6 +4065,14 @@
       "value": "24",
       "type": "spacing"
     },
+    "sy-xl2": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "sy-xl3": {
+      "value": "32",
+      "type": "spacing"
+    },
     "sx-xxs": {
       "value": "6",
       "type": "spacing"
@@ -4090,40 +4098,40 @@
       "type": "spacing"
     },
     "sx-xl": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "sx-xl2": {
       "value": "32",
       "type": "spacing"
     },
-    "sx-xl-2": {
-      "value": "48",
-      "type": "spacing"
-    },
-    "sx-xl-3": {
-      "value": "64",
+    "sx-xl3": {
+      "value": "40",
       "type": "spacing"
     }
   },
   "radii default": {
-    "none": {
+    "radii-none": {
       "value": "0",
       "type": "borderRadius"
     },
-    "sm": {
+    "radii-sm": {
       "value": "5",
       "type": "borderRadius"
     },
-    "base": {
+    "radii-base": {
       "value": "6",
       "type": "borderRadius"
     },
-    "md": {
+    "radii-md": {
       "value": "8",
       "type": "borderRadius"
     },
-    "lg": {
+    "radii-lg": {
       "value": "10",
       "type": "borderRadius"
     },
-    "xl": {
+    "radii-xl": {
       "value": "13",
       "type": "borderRadius"
     }
