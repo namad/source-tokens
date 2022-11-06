@@ -3745,8 +3745,8 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.light",
-            "lineHeight": "$line-height-display",
-            "fontSize": "$font-size-xl2",
+            "lineHeight": "$line-height-xl3",
+            "fontSize": "$font-size-xl4",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
             "textCase": "$textCase.none",
@@ -3758,8 +3758,8 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.regular",
-            "lineHeight": "$line-height-display",
-            "fontSize": "$font-size-xl2",
+            "lineHeight": "$line-height-xl3",
+            "fontSize": "$font-size-xl4",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
             "textCase": "$textCase.none",
@@ -3771,8 +3771,8 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.semibold",
-            "lineHeight": "$line-height-display",
-            "fontSize": "$font-size-xl2",
+            "lineHeight": "$line-height-xl3",
+            "fontSize": "$font-size-xl4",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
             "textCase": "$textCase.none",
@@ -3786,7 +3786,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.light",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-xl7",
             "fontSize": "$font-size-xl5",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3799,7 +3799,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.regular",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-xl7",
             "fontSize": "$font-size-xl5",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3812,7 +3812,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.semibold",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-xl7",
             "fontSize": "$font-size-xl5",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3827,7 +3827,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.light",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d2",
             "fontSize": "$font-size-xl6",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3840,7 +3840,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.regular",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d2",
             "fontSize": "$font-size-xl6",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3853,7 +3853,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.semibold",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d2",
             "fontSize": "$font-size-xl6",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3868,7 +3868,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.light",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d1",
             "fontSize": "$font-size-xl7",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3881,7 +3881,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.regular",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d1",
             "fontSize": "$font-size-xl7",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -3894,7 +3894,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.semibold",
-            "lineHeight": "$line-height-display",
+            "lineHeight": "$line-height-d1",
             "fontSize": "$font-size-xl7",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.display",
@@ -4001,6 +4001,14 @@
     },
     "line-height-xl7": {
       "value": "56",
+      "type": "lineHeights"
+    },
+    "line-height-d2": {
+      "value": "72",
+      "type": "lineHeights"
+    },
+    "line-height-d1": {
+      "value": "88",
       "type": "lineHeights"
     },
     "line-height-display": {
