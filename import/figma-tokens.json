@@ -1758,7 +1758,7 @@
           "value": {
             "fontFamily": "$fontFamilies.primary",
             "fontWeight": "$fontWeights.semibold",
-            "lineHeight": "$line-height-smal",
+            "lineHeight": "$line-height-sm",
             "fontSize": "$font-size-sm",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.label",
