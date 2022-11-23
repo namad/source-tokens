@@ -3782,64 +3782,64 @@
   "blue-cyan": {
     "primary": {
       "100": {
-        "value": "$accent.blue.100",
+        "value": "$global-accent.blue.100",
         "type": "color",
         "description": "accent/blue/100"
       },
       "200": {
-        "value": "$accent.blue.200",
+        "value": "$global-accent.blue.200",
         "type": "color",
         "description": "accent/blue/200"
       },
       "300": {
-        "value": "$accent.blue.300",
+        "value": "$global-accent.blue.300",
         "type": "color",
         "description": "accent/blue/300"
       },
       "400": {
-        "value": "$accent.blue.400",
+        "value": "$global-accent.blue.400",
         "type": "color",
         "description": "accent/blue/400"
       },
       "500": {
-        "value": "$accent.blue.500",
+        "value": "$global-accent.blue.500",
         "type": "color",
         "description": "accent/blue/500"
       },
       "600": {
-        "value": "$accent.blue.600",
+        "value": "$global-accent.blue.600",
         "type": "color",
         "description": "accent/blue/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "$accent.cyan.100",
+        "value": "$global-accent.cyan.100",
         "type": "color",
         "description": "accent/cyan/100"
       },
       "200": {
-        "value": "$accent.cyan.200",
+        "value": "$global-accent.cyan.200",
         "type": "color",
         "description": "accent/cyan/200"
       },
       "300": {
-        "value": "$accent.cyan.300",
+        "value": "$global-accent.cyan.300",
         "type": "color",
         "description": "accent/cyan/300"
       },
       "400": {
-        "value": "$accent.cyan.400",
+        "value": "$global-accent.cyan.400",
         "type": "color",
         "description": "accent/cyan/400"
       },
       "500": {
-        "value": "$accent.cyan.500",
+        "value": "$global-accent.cyan.500",
         "type": "color",
         "description": "accent/cyan/500"
       },
       "600": {
-        "value": "$accent.cyan.600",
+        "value": "$global-accent.cyan.600",
         "type": "color",
         "description": "accent/cyan/600"
       }
@@ -3860,64 +3860,64 @@
   "royal-blue": {
     "primary": {
       "100": {
-        "value": "$royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue/100"
       },
       "200": {
-        "value": "$royal-blue.200",
+        "value": "$global-accent.royal-blue.200",
         "type": "color",
         "description": "royal-blue/200"
       },
       "300": {
-        "value": "$royal-blue.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue/300"
       },
       "400": {
-        "value": "$royal-blue.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue/400"
       },
       "500": {
-        "value": "$royal-blue.500",
+        "value": "$global-accent.royal-blue.500",
         "type": "color",
         "description": "royal-blue/500"
       },
       "600": {
-        "value": "$royal-blue.600",
+        "value": "$global-accent.royal-blue.600",
         "type": "color",
         "description": "royal-blue/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "$purple.100",
+        "value": "$global-accent.purple.100",
         "type": "color",
         "description": "purple/100"
       },
       "200": {
-        "value": "$purple.200",
+        "value": "$global-accent.purple.200",
         "type": "color",
         "description": "purple/200"
       },
       "300": {
-        "value": "$purple.300",
+        "value": "$global-accent.purple.300",
         "type": "color",
         "description": "purple/300"
       },
       "400": {
-        "value": "$purple.400",
+        "value": "$global-accent.purple.400",
         "type": "color",
         "description": "purple/400"
       },
       "500": {
-        "value": "$purple.500",
+        "value": "$global-accent.purple.500",
         "type": "color",
         "description": "purple/500"
       },
       "600": {
-        "value": "$purple.600",
+        "value": "$global-accent.purple.600",
         "type": "color",
         "description": "purple/600"
       }
