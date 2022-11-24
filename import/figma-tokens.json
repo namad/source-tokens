@@ -343,7 +343,7 @@
           "type": "color"
         }
       },
-      "royal-blue-light": {
+      "royal-blue": {
         "100": {
           "value": "#729df3",
           "type": "color"
@@ -955,7 +955,7 @@
           "type": "color"
         }
       },
-      "royal-blue-light": {
+      "royal-blue": {
         "100": {
           "value": "#7aa0eb",
           "type": "color"
