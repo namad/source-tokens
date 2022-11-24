@@ -2257,21 +2257,6 @@
         "value": "$stroke.base.300",
         "type": "color",
         "description": "stroke/base/300"
-      },
-      "primary-bg": {
-        "value": "linear-gradient(180deg, #0880f7 0%, #0666c6 100%)",
-        "type": "color",
-        "description": "gradient/blue/02/200"
-      },
-      "danger-bg": {
-        "value": "linear-gradient(180deg, #d2271e 0%, #bc251b 100%)",
-        "type": "color",
-        "description": "gradient/red/01/400"
-      },
-      "success-bg": {
-        "value": "linear-gradient(180deg, #4f972b 0%, #448325 100%)",
-        "type": "color",
-        "description": "gradient/green/01/400"
       }
     },
     "form-element": {
@@ -3466,21 +3451,6 @@
         "value": "$stroke.base.300",
         "type": "color",
         "description": "stroke/base/300"
-      },
-      "primary-bg": {
-        "value": "linear-gradient(180deg, #1b66b1 0%, #144d85 100%)",
-        "type": "color",
-        "description": "gradient/primary"
-      },
-      "danger-bg": {
-        "value": "linear-gradient(180deg, #a63830 0%, #7f2b25 100%)",
-        "type": "color",
-        "description": "gradient/danger"
-      },
-      "success-bg": {
-        "value": "linear-gradient(180deg, #438e43 0%, #367236 100%)",
-        "type": "color",
-        "description": "gradient/success"
       }
     },
     "form-element": {
@@ -4378,6 +4348,23 @@
     }
   },
   "common": {
+    "button": {
+      "primary-bg": {
+        "value": "$gradient.primary",
+        "type": "color",
+        "description": "gradient/primary"
+      },
+      "danger-bg": {
+        "value": "$gradient.danger",
+        "type": "color",
+        "description": "gradient/red/01/400"
+      },
+      "success-bg": {
+        "value": "gradient.success",
+        "type": "color",
+        "description": "gradient/green/01/400"
+      }      
+    },
     "ui-element": {
       "rest-bg": {
         "value": "$utility.transparent",
