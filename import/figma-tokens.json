@@ -2934,7 +2934,7 @@
         "description": "gradient/cyan/01/200"
       }
     }
-  },  
+  },
   "green-blue-light": {
     "primary": {
       "100": {
@@ -3012,7 +3012,7 @@
         "description": "gradient/cyan/01/200"
       }
     }
-  },    
+  },
   "dark-elevated": {
     "fill": {
       "base": {
@@ -4104,7 +4104,7 @@
         "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
         "description": "purple/200, 20%"
-      },      
+      },
       "300": {
         "value": "$global-accent.purple.300",
         "type": "color",
@@ -4138,7 +4138,7 @@
         "description": "gradient/cyan/01/200"
       }
     }
-  }, 
+  },
   "green-blue-dark": {
     "primary": {
       "100": {
@@ -4182,7 +4182,7 @@
         "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
         "description": "purple/200, 20%"
-      },      
+      },
       "300": {
         "value": "$global-accent.royal-blue.300",
         "type": "color",
@@ -4216,7 +4216,7 @@
         "description": "gradient/cyan/01/200"
       }
     }
-  },   
+  },
   "semantic-1": {
     "danger": {
       "100": {
@@ -4363,7 +4363,7 @@
         "value": "gradient.success",
         "type": "color",
         "description": "gradient/green/01/400"
-      }      
+      }
     },
     "ui-element": {
       "rest-bg": {
@@ -6358,9 +6358,13 @@
       "greys H200 S10",
       "greys H230 S10",
       "light-base",
-      "dark-elevated",
       "blue-cyan-light",
       "royal-blue-light",
+      "green-blue-light",
+      "dark-elevated",
+      "blue-cyan-dark",
+      "royal-blue-dark",
+      "green-blue-dark",
       "semantic-1",
       "common",
       "typo-compact",
