@@ -4126,14 +4126,14 @@
     },
     "secondary": {
       "100": {
-        "value": "rgba($global-accent.puurple.200, 10%)",
+        "value": "rgba($global-accent.purple.200, 10%)",
         "type": "color",
-        "description": "puurple/200, 10%"
+        "description": "purple/200, 10%"
       },
       "200": {
-        "value": "rgba($global-accent.puurple.200, 20%)",
+        "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
-        "description": "puurple/200, 20%"
+        "description": "purple/200, 20%"
       },      
       "300": {
         "value": "$global-accent.purple.300",
@@ -4169,7 +4169,6 @@
       }
     }
   }, 
-
   "green-blue-dark": {
     "primary": {
       "100": {
@@ -4205,14 +4204,14 @@
     },
     "secondary": {
       "100": {
-        "value": "rgba($global-accent.puurple.200, 10%)",
+        "value": "rgba($global-accent.purple.200, 10%)",
         "type": "color",
-        "description": "puurple/200, 10%"
+        "description": "purple/200, 10%"
       },
       "200": {
-        "value": "rgba($global-accent.puurple.200, 20%)",
+        "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
-        "description": "puurple/200, 20%"
+        "description": "purple/200, 20%"
       },      
       "300": {
         "value": "$global-accent.royal-blue.300",
