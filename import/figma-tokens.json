@@ -2938,15 +2938,15 @@
   "green-blue-light": {
     "primary": {
       "100": {
-        "value": "$global-accent.jade-green.100",
+        "value": "rgba($global-accent.jade-green.200, 10%)",
         "type": "color",
-        "description": "jade-green-light/100"
+        "description": "jade-green-light/200, 10%"
       },
       "200": {
-        "value": "$global-accent.jade-green.200",
+        "value": "rgba($global-accent.jade-green.200, 20%)",
         "type": "color",
-        "description": "jade-green-light/200"
-      },
+        "description": "jade-green-light/200, 20%"
+      },      
       "300": {
         "value": "$global-accent.jade-green.300",
         "type": "color",
@@ -2970,15 +2970,15 @@
     },
     "secondary": {
       "100": {
-        "value": "$global-accent.royal-blue.100",
+        "value": "rgba($global-accent.royal-blue.200, 10%)",
         "type": "color",
-        "description": "royal-blue/100"
+        "description": "jade-green-light/200, 10%"
       },
       "200": {
-        "value": "$global-accent.royal-blue.200",
+        "value": "rgba($global-accent.royal-blue.200, 20%)",
         "type": "color",
-        "description": "royal-blue/200"
-      },
+        "description": "jade-green-light/200, 20%"
+      },      
       "300": {
         "value": "$global-accent.royal-blue.300",
         "type": "color",
