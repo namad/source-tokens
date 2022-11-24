@@ -2875,32 +2875,32 @@
   "royal-blue-light": {
     "primary": {
       "100": {
-        "value": "$global-accent.royal-blue-light.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue-light/100"
       },
       "200": {
-        "value": "$global-accent.royal-blue-light.200",
+        "value": "$global-accent.royal-blue.200",
         "type": "color",
         "description": "royal-blue-light/200"
       },
       "300": {
-        "value": "$global-accent.royal-blue-light.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue-light/300"
       },
       "400": {
-        "value": "$global-accent.royal-blue-light.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue-light/400"
       },
       "500": {
-        "value": "$global-accent.royal-blue-light.500",
+        "value": "$global-accent.royal-blue.500",
         "type": "color",
         "description": "royal-blue-light/500"
       },
       "600": {
-        "value": "$global-accent.royal-blue-light.600",
+        "value": "$global-accent.royal-blue.600",
         "type": "color",
         "description": "royal-blue-light/600"
       }
@@ -2939,7 +2939,7 @@
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $global-accent.royal-blue-light.200 0%, $global-accent.royal-blue-light.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.200 0%, $global-accent.royal-blue.400 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
@@ -2950,6 +2950,84 @@
       }
     }
   },  
+  "green-blue-light": {
+    "primary": {
+      "100": {
+        "value": "$global-accent.jade-green.100",
+        "type": "color",
+        "description": "jade-green-light/100"
+      },
+      "200": {
+        "value": "$global-accent.jade-green.200",
+        "type": "color",
+        "description": "jade-green-light/200"
+      },
+      "300": {
+        "value": "$global-accent.jade-green.300",
+        "type": "color",
+        "description": "jade-green-light/300"
+      },
+      "400": {
+        "value": "$global-accent.jade-green.400",
+        "type": "color",
+        "description": "jade-green-light/400"
+      },
+      "500": {
+        "value": "$global-accent.jade-green.500",
+        "type": "color",
+        "description": "jade-green-light/500"
+      },
+      "600": {
+        "value": "$global-accent.jade-green.600",
+        "type": "color",
+        "description": "jade-green-light/600"
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "$global-accent.royal-blue.100",
+        "type": "color",
+        "description": "royal-blue/100"
+      },
+      "200": {
+        "value": "$global-accent.royal-blue.200",
+        "type": "color",
+        "description": "royal-blue/200"
+      },
+      "300": {
+        "value": "$global-accent.royal-blue.300",
+        "type": "color",
+        "description": "royal-blue/300"
+      },
+      "400": {
+        "value": "$global-accent.royal-blue.400",
+        "type": "color",
+        "description": "royal-blue/400"
+      },
+      "500": {
+        "value": "$global-accent.royal-blue.500",
+        "type": "color",
+        "description": "royal-blue/500"
+      },
+      "600": {
+        "value": "$global-accent.royal-blue.600",
+        "type": "color",
+        "description": "royal-blue/600"
+      }
+    },
+    "gradient": {
+      "primary": {
+        "value": "linear-gradient(180deg, $global-accent.jade-green.200 0%, $global-accent.jade-green.400 100%)",
+        "type": "color",
+        "description": "gradient/blue/01/200"
+      },
+      "secondary": {
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.200 0%, $global-accent.royal-blue.400 100%)",
+        "type": "color",
+        "description": "gradient/cyan/01/200"
+      }
+    }
+  },    
   "dark-elevated": {
     "fill": {
       "base": {
@@ -4016,47 +4094,47 @@
   "royal-blue-dark": {
     "primary": {
       "100": {
-        "value": "$global-accent.royal-blue-light.100",
+        "value": "rgba($global-accent.royal-blue.200, 10%)",
         "type": "color",
-        "description": "royal-blue-light/100"
+        "description": "royal-blue-light/200, 10%"
       },
       "200": {
-        "value": "$global-accent.royal-blue-light.200",
+        "value": "rgba($global-accent.royal-blue.200, 20%)",
         "type": "color",
-        "description": "royal-blue-light/200"
+        "description": "royal-blue-light/200, 20%"
       },
       "300": {
-        "value": "$global-accent.royal-blue-light.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue-light/300"
       },
       "400": {
-        "value": "$global-accent.royal-blue-light.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue-light/400"
       },
       "500": {
-        "value": "$global-accent.royal-blue-light.500",
+        "value": "$global-accent.royal-blue.500",
         "type": "color",
         "description": "royal-blue-light/500"
       },
       "600": {
-        "value": "$global-accent.royal-blue-light.600",
+        "value": "$global-accent.royal-blue.600",
         "type": "color",
         "description": "royal-blue-light/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "$global-accent.purple.100",
+        "value": "rgba($global-accent.puurple.200, 10%)",
         "type": "color",
-        "description": "purple/100"
+        "description": "puurple/200, 10%"
       },
       "200": {
-        "value": "$global-accent.purple.200",
+        "value": "rgba($global-accent.puurple.200, 20%)",
         "type": "color",
-        "description": "purple/200"
-      },
+        "description": "puurple/200, 20%"
+      },      
       "300": {
         "value": "$global-accent.purple.300",
         "type": "color",
@@ -4080,7 +4158,7 @@
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $global-accent.royal-blue-light.400 0%, $global-accent.royal-blue-light.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.400 0%, $global-accent.royal-blue.600 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
@@ -4091,6 +4169,85 @@
       }
     }
   }, 
+
+  "green-blue-dark": {
+    "primary": {
+      "100": {
+        "value": "rgba($global-accent.jade-green.200, 10%)",
+        "type": "color",
+        "description": "jade-green-light/200, 10%"
+      },
+      "200": {
+        "value": "rgba($global-accent.jade-green.200, 20%)",
+        "type": "color",
+        "description": "jade-green-light/200, 20%"
+      },
+      "300": {
+        "value": "$global-accent.jade-green.300",
+        "type": "color",
+        "description": "jade-green-light/300"
+      },
+      "400": {
+        "value": "$global-accent.jade-green.400",
+        "type": "color",
+        "description": "jade-green-light/400"
+      },
+      "500": {
+        "value": "$global-accent.jade-green.500",
+        "type": "color",
+        "description": "jade-green-light/500"
+      },
+      "600": {
+        "value": "$global-accent.jade-green.600",
+        "type": "color",
+        "description": "jade-green-light/600"
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "rgba($global-accent.puurple.200, 10%)",
+        "type": "color",
+        "description": "puurple/200, 10%"
+      },
+      "200": {
+        "value": "rgba($global-accent.puurple.200, 20%)",
+        "type": "color",
+        "description": "puurple/200, 20%"
+      },      
+      "300": {
+        "value": "$global-accent.royal-blue.300",
+        "type": "color",
+        "description": "royal-blue/300"
+      },
+      "400": {
+        "value": "$global-accent.royal-blue.400",
+        "type": "color",
+        "description": "royal-blue/400"
+      },
+      "500": {
+        "value": "$global-accent.royal-blue.500",
+        "type": "color",
+        "description": "royal-blue/500"
+      },
+      "600": {
+        "value": "$global-accent.royal-blue.600",
+        "type": "color",
+        "description": "royal-blue/600"
+      }
+    },
+    "gradient": {
+      "primary": {
+        "value": "linear-gradient(180deg, $global-accent.jade-green.400 0%, $global-accent.jade-green.600 100%)",
+        "type": "color",
+        "description": "gradient/blue/01/200"
+      },
+      "secondary": {
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.400 0%, $global-accent.royal-blue.600 100%)",
+        "type": "color",
+        "description": "gradient/cyan/01/200"
+      }
+    }
+  },   
   "semantic-1": {
     "danger": {
       "100": {
