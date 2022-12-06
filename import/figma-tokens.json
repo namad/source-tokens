@@ -2114,22 +2114,22 @@
     },
     "gradient": {
       "danger": {
-        "value": "linear-gradient(180deg, #e43f3f 0%, #e02f29 100%)",
+        "value": "linear-gradient(180deg, $global-accent.red.200  0%, $global-accent.red.400 100%)",
         "type": "color",
         "description": "gradient/red/01/200"
       },
       "warnig": {
-        "value": "linear-gradient(180deg, #e77d13 0%, #d07011 100%)",
+        "value": "linear-gradient(180deg, $global-accent.orange.200 0%, $global-accent.orange.400 100%)",
         "type": "color",
         "description": "gradient/orange/01/200"
       },
       "success": {
-        "value": "linear-gradient(180deg, #15b27e 0%, #14aa79 100%)",
+        "value": "linear-gradient(180deg, $global-accent.jade-green.200 0%, $global-accent.jade-green.400 100%)",
         "type": "color",
         "description": "gradient/jade-green/01/200"
       },
       "info": {
-        "value": "linear-gradient(180deg, #14adad 0%, #139f9f 100%)",
+        "value": "linear-gradient(180deg, $global-accent.teal.200 0%, $global-accent.teal.400 100%)",
         "type": "color",
         "description": "gradient/teal/01/200"
       }
