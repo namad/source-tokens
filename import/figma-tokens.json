@@ -615,7 +615,7 @@
     "global-accent": {
       "red": {
         "100": {
-          "value": "$global-accent.red.100 #e5a8a4",
+          "value": "#e5a8a4",
           "type": "color"
         },
         "200": {
