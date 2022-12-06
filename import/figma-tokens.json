@@ -1821,64 +1821,64 @@
     "fill": {
       "base": {
         "100": {
-          "value": "{grey-100}",
+          "value": "$grey-100",
           "type": "color",
           "description": "light/100"
         },
         "200": {
-          "value": "{grey-98}",
+          "value": "$grey-98",
           "type": "color",
           "description": "light/200"
         },
         "300": {
-          "value": "{grey-96}",
+          "value": "$grey-96",
           "type": "color",
           "description": "light/300"
         },
         "400": {
-          "value": "{grey-94}",
+          "value": "$grey-94",
           "type": "color",
           "description": "light/400"
         },
         "500": {
-          "value": "{grey-90}",
+          "value": "$grey-90",
           "type": "color",
           "description": "light/600"
         },
         "600": {
-          "value": "{grey-86}",
+          "value": "$grey-86",
           "type": "color",
           "description": "light/800"
         }
       },
       "contrast": {
         "100": {
-          "value": "{grey-16}",
+          "value": "$grey-16",
           "type": "color",
           "description": "dark/1900"
         },
         "200": {
-          "value": "{grey-14}",
+          "value": "$grey-14",
           "type": "color",
           "description": "dark/2000"
         },
         "300": {
-          "value": "{grey-12}",
+          "value": "$grey-12",
           "type": "color",
           "description": "dark/2100"
         },
         "400": {
-          "value": "{grey-10}",
+          "value": "$grey-10",
           "type": "color",
           "description": "dark/2200"
         },
         "500": {
-          "value": "{grey-8}",
+          "value": "$grey-8",
           "type": "color",
           "description": "dark/2300"
         },
         "600": {
-          "value": "{grey-6}",
+          "value": "$grey-6",
           "type": "color",
           "description": "dark/2400"
         }
@@ -1983,64 +1983,64 @@
     "stroke": {
       "base": {
         "100": {
-          "value": "{grey-92}",
+          "value": "$grey-92",
           "type": "color",
           "description": "light/500"
         },
         "200": {
-          "value": "{grey-88}",
+          "value": "$grey-88",
           "type": "color",
           "description": "light/700"
         },
         "300": {
-          "value": "{grey-84}",
+          "value": "$grey-84",
           "type": "color",
           "description": "light/900"
         },
         "400": {
-          "value": "{grey-70}",
+          "value": "$grey-70",
           "type": "color",
           "description": "light/1600"
         },
         "500": {
-          "value": "{grey-58}",
+          "value": "$grey-58",
           "type": "color",
           "description": "light/2200"
         },
         "600": {
-          "value": "{grey-54}",
+          "value": "$grey-54",
           "type": "color",
           "description": "stroke/base/600"
         }
       },
       "contrast": {
         "100": {
-          "value": "{grey-30}",
+          "value": "$grey-30",
           "type": "color",
           "description": "dark/1200"
         },
         "200": {
-          "value": "{grey-32}",
+          "value": "$grey-32",
           "type": "color",
           "description": "dark/1100"
         },
         "300": {
-          "value": "{grey-34}",
+          "value": "$grey-34",
           "type": "color",
           "description": "dark/1000"
         },
         "400": {
-          "value": "{grey-36}",
+          "value": "$grey-36",
           "type": "color",
           "description": "dark/900"
         },
         "500": {
-          "value": "{grey-44}",
+          "value": "$grey-44",
           "type": "color",
           "description": "dark/500"
         },
         "600": {
-          "value": "{grey-48}",
+          "value": "$grey-48",
           "type": "color",
           "description": "dark/300"
         }
@@ -3005,64 +3005,64 @@
     "fill": {
       "base": {
         "100": {
-          "value": "{grey-12}",
+          "value": "$grey-12",
           "type": "color",
           "description": "dark/2100"
         },
         "200": {
-          "value": "{grey-10}",
+          "value": "$grey-10",
           "type": "color",
           "description": "dark/2200"
         },
         "300": {
-          "value": "{grey-8}",
+          "value": "$grey-8",
           "type": "color",
           "description": "dark/2300"
         },
         "400": {
-          "value": "{grey-6}",
+          "value": "$grey-6",
           "type": "color",
           "description": "dark/2400"
         },
         "500": {
-          "value": "{grey-4}",
+          "value": "$grey-4",
           "type": "color",
           "description": "dark/2500"
         },
         "600": {
-          "value": "{grey-28}",
+          "value": "$grey-28",
           "type": "color",
           "description": "dark/1300"
         }
       },
       "contrast": {
         "100": {
-          "value": "{grey-18}",
+          "value": "$grey-18",
           "type": "color",
           "description": "dark/1800"
         },
         "200": {
-          "value": "{grey-16}",
+          "value": "$grey-16",
           "type": "color",
           "description": "dark/1900"
         },
         "300": {
-          "value": "{grey-14}",
+          "value": "$grey-14",
           "type": "color",
           "description": "dark/2000"
         },
         "400": {
-          "value": "{grey-12}",
+          "value": "$grey-12",
           "type": "color",
           "description": "dark/2100"
         },
         "500": {
-          "value": "{grey-10}",
+          "value": "$grey-10",
           "type": "color",
           "description": "dark/2200"
         },
         "600": {
-          "value": "{grey-28}",
+          "value": "$grey-28",
           "type": "color",
           "description": "dark/1300"
         }
@@ -3107,64 +3107,64 @@
     "stroke": {
       "base": {
         "100": {
-          "value": "{grey-18}",
+          "value": "$grey-18",
           "type": "color",
           "description": "dark/1800"
         },
         "200": {
-          "value": "{grey-22}",
+          "value": "$grey-22",
           "type": "color",
           "description": "dark/1600"
         },
         "300": {
-          "value": "{grey-24}",
+          "value": "$grey-24",
           "type": "color",
           "description": "dark/1500"
         },
         "400": {
-          "value": "{grey-32}",
+          "value": "$grey-32",
           "type": "color",
           "description": "dark/1100"
         },
         "500": {
-          "value": "{grey-40}",
+          "value": "$grey-40",
           "type": "color",
           "description": "dark/700"
         },
         "600": {
-          "value": "{grey-46}",
+          "value": "$grey-46",
           "type": "color",
           "description": "dark/400"
         }
       },
       "contrast": {
         "100": {
-          "value": "{grey-20}",
+          "value": "$grey-20",
           "type": "color",
           "description": "dark/1700"
         },
         "200": {
-          "value": "{grey-20}",
+          "value": "$grey-20",
           "type": "color",
           "description": "dark/1700"
         },
         "300": {
-          "value": "{grey-22}",
+          "value": "$grey-22",
           "type": "color",
           "description": "dark/1600"
         },
         "400": {
-          "value": "{grey-32}",
+          "value": "$grey-32",
           "type": "color",
           "description": "dark/1100"
         },
         "500": {
-          "value": "{grey-44}",
+          "value": "$grey-44",
           "type": "color",
           "description": "dark/500"
         },
         "600": {
-          "value": "{grey-50}",
+          "value": "$grey-50",
           "type": "color",
           "description": "dark/200"
         }
