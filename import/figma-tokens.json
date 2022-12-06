@@ -1,6 +1,6 @@
 {
   "accent-S100": {
-    "accent": {
+    "global-accent": {
       "red": {
         "100": {
           "value": "#eba39f",
@@ -612,10 +612,10 @@
     }
   },
   "accent-S80": {
-    "accent": {
+    "global-accent": {
       "red": {
         "100": {
-          "value": "#e5a8a4",
+          "value": "$global-accent.red.100 #e5a8a4",
           "type": "color"
         },
         "200": {
@@ -2340,64 +2340,64 @@
     "accent": {
       "red": {
         "100": {
-          "value": "rgba($accent.red.200, 10%)",
+          "value": "rgba($global-accent.red.200, 10%)",
           "type": "color",
           "description": "red/100, 15%"
         },
         "200": {
-          "value": "rgba($accent.red.200, 20%)",
+          "value": "rgba($global-accent.red.200, 20%)",
           "type": "color",
           "description": "red/100, 25%"
         },
         "300": {
-          "value": "$accent.red.300",
+          "value": "$global-accent.red.300",
           "type": "color",
           "description": "solid/red/300"
         },
         "400": {
-          "value": "$accent.red.400",
+          "value": "$global-accent.red.400",
           "type": "color",
           "description": "solid/red/400"
         },
         "500": {
-          "value": "$accent.red.500",
+          "value": "$global-accent.red.500",
           "type": "color",
           "description": "solid/red/500"
         },
         "600": {
-          "value": "$accent.red.100",
+          "value": "$global-accent.red.100",
           "type": "color",
           "description": "solid/red/100"
         }
       },
       "amber": {
         "100": {
-          "value": "rgba($accent.orange.200, 10%)",
+          "value": "rgba($global-accent.orange.200, 10%)",
           "type": "color",
           "description": "solid/orange/200, 15%"
         },
         "200": {
-          "value": "rgba($accent.orange.200, 20%)",
+          "value": "rgba($global-accent.orange.200, 20%)",
           "type": "color",
           "description": "solid/orange/200, 25%"
         },
         "300": {
-          "value": "$accent.orange.300",
+          "value": "$global-accent.orange.300",
           "type": "color",
           "description": "solid/orange/300"
         },
         "400": {
-          "value": "$accent.orange.400",
+          "value": "$global-accent.orange.400",
           "type": "color",
           "description": "solid/orange/400"
         },
         "500": {
-          "value": "$accent.orange.500",
+          "value": "$global-accent.orange.500",
           "type": "color",
           "description": "solid/orange/500"
         },
         "600": {
-          "value": "$accent.orange.100",
+          "value": "$global-accent.orange.100",
           "type": "color",
           "description": "solid/orange/100"
         }
@@ -2782,76 +2782,76 @@
   "blue-cyan-light": {
     "primary": {
       "100": {
-        "value": "rgba($accent.blue.200, 10%)",
+        "value": "rgba($global-accent.blue.200, 10%)",
         "type": "color",
         "description": "accent/blue/100"
       },
       "200": {
-        "value": "rgba($accent.blue.200, 20%)",
+        "value": "rgba($global-accent.blue.200, 20%)",
         "type": "color",
         "description": "accent/blue/200"
       },
       "300": {
-        "value": "$accent.blue.300",
+        "value": "$global-accent.blue.300",
         "type": "color",
         "description": "accent/blue/300"
       },
       "400": {
-        "value": "$accent.blue.400",
+        "value": "$global-accent.blue.400",
         "type": "color",
         "description": "accent/blue/400"
       },
       "500": {
-        "value": "$accent.blue.500",
+        "value": "$global-accent.blue.500",
         "type": "color",
         "description": "accent/blue/500"
       },
       "600": {
-        "value": "$accent.blue.600",
+        "value": "$global-accent.blue.600",
         "type": "color",
         "description": "accent/blue/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "rgba($accent.cyan.200, 10%)",
+        "value": "rgba($global-accent.cyan.200, 10%)",
         "type": "color",
         "description": "global-accent/cyan/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.cyan.200, 20%)",
+        "value": "rgba($global-accent.cyan.200, 20%)",
         "type": "color",
         "description": "global-accent/cyan/200, 20%"
       },
       "300": {
-        "value": "$accent.cyan.300",
+        "value": "$global-accent.cyan.300",
         "type": "color",
         "description": "global-accent/cyan/300"
       },
       "400": {
-        "value": "$accent.cyan.400",
+        "value": "$global-accent.cyan.400",
         "type": "color",
         "description": "global-accent/cyan/400"
       },
       "500": {
-        "value": "$accent.cyan.500",
+        "value": "$global-accent.cyan.500",
         "type": "color",
         "description": "global-accent/cyan/500"
       },
       "600": {
-        "value": "$accent.cyan.600",
+        "value": "$global-accent.cyan.600",
         "type": "color",
         "description": "global-accent/cyan/600"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.blue.200 0%, $accent.blue.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.blue.200 0%, $global-accent.blue.400 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.cyan.200 0%, $accent.cyan.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.cyan.200 0%, $global-accent.cyan.400 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
@@ -2860,76 +2860,76 @@
   "royal-blue-light": {
     "primary": {
       "100": {
-        "value": "$accent.royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue-light/100"
       },
       "200": {
-        "value": "$accent.royal-blue.200",
+        "value": "$global-accent.royal-blue.200",
         "type": "color",
         "description": "royal-blue-light/200"
       },
       "300": {
-        "value": "$accent.royal-blue.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue-light/300"
       },
       "400": {
-        "value": "$accent.royal-blue.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue-light/400"
       },
       "500": {
-        "value": "$accent.royal-blue.500",
+        "value": "$global-accent.royal-blue.500",
         "type": "color",
         "description": "royal-blue-light/500"
       },
       "600": {
-        "value": "$accent.royal-blue.600",
+        "value": "$global-accent.royal-blue.600",
         "type": "color",
         "description": "royal-blue-light/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "$accent.purple.100",
+        "value": "$global-accent.purple.100",
         "type": "color",
         "description": "purple/100"
       },
       "200": {
-        "value": "$accent.purple.200",
+        "value": "$global-accent.purple.200",
         "type": "color",
         "description": "purple/200"
       },
       "300": {
-        "value": "$accent.purple.300",
+        "value": "$global-accent.purple.300",
         "type": "color",
         "description": "purple/300"
       },
       "400": {
-        "value": "$accent.purple.400",
+        "value": "$global-accent.purple.400",
         "type": "color",
         "description": "purple/400"
       },
       "500": {
-        "value": "$accent.purple.500",
+        "value": "$global-accent.purple.500",
         "type": "color",
         "description": "purple/500"
       },
       "600": {
-        "value": "$accent.purple.600",
+        "value": "$global-accent.purple.600",
         "type": "color",
         "description": "purple/600"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.royal-blue.200 0%, $accent.royal-blue.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.200 0%, $global-accent.royal-blue.400 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.purple.200 0%, $accent.purple.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.purple.200 0%, $global-accent.purple.400 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
@@ -2938,76 +2938,76 @@
   "green-blue-light": {
     "primary": {
       "100": {
-        "value": "rgba($accent.jade-green.200, 10%)",
+        "value": "rgba($global-accent.jade-green.200, 10%)",
         "type": "color",
         "description": "jade-green-light/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.jade-green.200, 20%)",
+        "value": "rgba($global-accent.jade-green.200, 20%)",
         "type": "color",
         "description": "jade-green-light/200, 20%"
       },
       "300": {
-        "value": "$accent.jade-green.300",
+        "value": "$global-accent.jade-green.300",
         "type": "color",
         "description": "jade-green-light/300"
       },
       "400": {
-        "value": "$accent.jade-green.400",
+        "value": "$global-accent.jade-green.400",
         "type": "color",
         "description": "jade-green-light/400"
       },
       "500": {
-        "value": "$accent.jade-green.500",
+        "value": "$global-accent.jade-green.500",
         "type": "color",
         "description": "jade-green-light/500"
       },
       "600": {
-        "value": "$accent.jade-green.600",
+        "value": "$global-accent.jade-green.600",
         "type": "color",
         "description": "jade-green-light/600"
       }
     },
     "secondary": {
       "100": {
-        "value": "rgba($accent.royal-blue.200, 10%)",
+        "value": "rgba($global-accent.royal-blue.200, 10%)",
         "type": "color",
         "description": "jade-green-light/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.royal-blue.200, 20%)",
+        "value": "rgba($global-accent.royal-blue.200, 20%)",
         "type": "color",
         "description": "jade-green-light/200, 20%"
       },
       "300": {
-        "value": "$accent.royal-blue.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue/300"
       },
       "400": {
-        "value": "$accent.royal-blue.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue/400"
       },
       "500": {
-        "value": "$accent.royal-blue.500",
+        "value": "$global-accent.royal-blue.500",
         "type": "color",
         "description": "royal-blue/500"
       },
       "600": {
-        "value": "$accent.royal-blue.600",
+        "value": "$global-accent.royal-blue.600",
         "type": "color",
         "description": "royal-blue/600"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.jade-green.200 0%, $accent.jade-green.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.jade-green.200 0%, $global-accent.jade-green.400 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.royal-blue.200 0%, $accent.royal-blue.400 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.200 0%, $global-accent.royal-blue.400 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
@@ -3474,32 +3474,32 @@
     "accent": {
       "red": {
         "100": {
-          "value": "rgba($accent.red.100, 10%)",
+          "value": "rgba($global-accent.red.100, 10%)",
           "type": "color",
           "description": "solid/red/100, 10%"
         },
         "200": {
-          "value": "rgba($accent.red.100, 20%)",
+          "value": "rgba($global-accent.red.100, 20%)",
           "type": "color",
           "description": "solid/red/100, 20%"
         },
         "300": {
-          "value": "$accent.red.400",
+          "value": "$global-accent.red.100",
           "type": "color",
           "description": "solid/red/400"
         },
         "400": {
-          "value": "$accent.red.300",
+          "value": "$global-accent.red.300",
           "type": "color",
           "description": "solid/red/300"
         },
         "500": {
-          "value": "$accent.red.100",
+          "value": "$global-accent.red.100",
           "type": "color",
           "description": "solid/red/100"
         },
         "600": {
-          "value": "$accent.red.100",
+          "value": "$global-accent.red.100",
           "type": "color",
           "description": "solid/red/100"
         }
@@ -3926,76 +3926,76 @@
   "blue-cyan-dark": {
     "primary": {
       "100": {
-        "value": "rgba($accent.blue.200, 10%)",
+        "value": "rgba($global-accent.blue.200, 10%)",
         "type": "color",
         "description": "accent/blue/100"
       },
       "200": {
-        "value": "rgba($accent.blue.200, 20%)",
+        "value": "rgba($global-accent.blue.200, 20%)",
         "type": "color",
         "description": "accent/blue/200"
       },
       "300": {
-        "value": "$accent.blue.400",
+        "value": "$global-accent.blue.400",
         "type": "color",
         "description": "accent/blue/400"
       },
       "400": {
-        "value": "$accent.blue.300",
+        "value": "$global-accent.blue.300",
         "type": "color",
         "description": "accent/blue/300"
       },
       "500": {
-        "value": "$accent.blue.100",
+        "value": "$global-accent.blue.100",
         "type": "color",
         "description": "accent/blue/100"
       },
       "600": {
-        "value": "$accent.blue.100",
+        "value": "$global-accent.blue.100",
         "type": "color",
         "description": "accent/blue/100"
       }
     },
     "secondary": {
       "100": {
-        "value": "rgba($accent.cyan.200, 10%)",
+        "value": "rgba($global-accent.cyan.200, 10%)",
         "type": "color",
         "description": "global-accent/cyan/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.cyan.200, 20%)",
+        "value": "rgba($global-accent.cyan.200, 20%)",
         "type": "color",
         "description": "global-accent/cyan/200, 20%"
       },
       "300": {
-        "value": "$accent.cyan.400",
+        "value": "$global-accent.cyan.400",
         "type": "color",
         "description": "global-accent/cyan/400"
       },
       "400": {
-        "value": "$accent.cyan.300",
+        "value": "$global-accent.cyan.300",
         "type": "color",
         "description": "global-accent/cyan/300"
       },
       "500": {
-        "value": "$accent.cyan.100",
+        "value": "$global-accent.cyan.100",
         "type": "color",
         "description": "global-accent/cyan/100"
       },
       "600": {
-        "value": "$accent.cyan.100",
+        "value": "$global-accent.cyan.100",
         "type": "color",
         "description": "global-accent/cyan/100"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.blue.400 0%, $accent.blue.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.blue.400 0%, $global-accent.blue.600 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.cyan.400 0%, $accent.cyan.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.cyan.400 0%, $global-accent.cyan.600 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
@@ -4004,76 +4004,76 @@
   "royal-blue-dark": {
     "primary": {
       "100": {
-        "value": "rgba($accent.royal-blue.200, 10%)",
+        "value": "rgba($global-accent.royal-blue.200, 10%)",
         "type": "color",
         "description": "royal-blue-light/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.royal-blue.200, 20%)",
+        "value": "rgba($global-accent.royal-blue.200, 20%)",
         "type": "color",
         "description": "royal-blue-light/200, 20%"
       },
       "300": {
-        "value": "$accent.royal-blue.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue-light/300"
       },
       "400": {
-        "value": "$accent.royal-blue.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue-light/400"
       },
       "500": {
-        "value": "$accent.royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue-light/100"
       },
       "600": {
-        "value": "$accent.royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue-light/100"
       }
     },
     "secondary": {
       "100": {
-        "value": "rgba($accent.purple.200, 10%)",
+        "value": "rgba($global-accent.purple.200, 10%)",
         "type": "color",
         "description": "purple/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.purple.200, 20%)",
+        "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
         "description": "purple/200, 20%"
       },
       "300": {
-        "value": "$accent.purple.300",
+        "value": "$global-accent.purple.300",
         "type": "color",
         "description": "purple/300"
       },
       "400": {
-        "value": "$accent.purple.400",
+        "value": "$global-accent.purple.400",
         "type": "color",
         "description": "purple/400"
       },
       "500": {
-        "value": "$accent.purple.100",
+        "value": "$global-accent.purple.100",
         "type": "color",
         "description": "purple/100"
       },
       "600": {
-        "value": "$accent.purple.100",
+        "value": "$global-accent.purple.100",
         "type": "color",
         "description": "purple/100"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.royal-blue.400 0%, $accent.royal-blue.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.400 0%, $global-accent.royal-blue.600 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.purple.400 0%, $accent.purple.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.purple.400 0%, $global-accent.purple.600 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
@@ -4082,76 +4082,76 @@
   "green-blue-dark": {
     "primary": {
       "100": {
-        "value": "rgba($accent.jade-green.200, 10%)",
+        "value": "rgba($global-accent.jade-green.200, 10%)",
         "type": "color",
         "description": "jade-green-light/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.jade-green.200, 20%)",
+        "value": "rgba($global-accent.jade-green.200, 20%)",
         "type": "color",
         "description": "jade-green-light/200, 20%"
       },
       "300": {
-        "value": "$accent.jade-green.300",
+        "value": "$global-accent.jade-green.300",
         "type": "color",
         "description": "jade-green-light/300"
       },
       "400": {
-        "value": "$accent.jade-green.400",
+        "value": "$global-accent.jade-green.400",
         "type": "color",
         "description": "jade-green-light/400"
       },
       "500": {
-        "value": "$accent.jade-green.100",
+        "value": "$global-accent.jade-green.100",
         "type": "color",
         "description": "jade-green-light/100"
       },
       "600": {
-        "value": "$accent.jade-green.100",
+        "value": "$global-accent.jade-green.100",
         "type": "color",
         "description": "jade-green-light/100"
       }
     },
     "secondary": {
       "100": {
-        "value": "rgba($accent.purple.200, 10%)",
+        "value": "rgba($global-accent.purple.200, 10%)",
         "type": "color",
         "description": "purple/200, 10%"
       },
       "200": {
-        "value": "rgba($accent.purple.200, 20%)",
+        "value": "rgba($global-accent.purple.200, 20%)",
         "type": "color",
         "description": "purple/200, 20%"
       },
       "300": {
-        "value": "$accent.royal-blue.300",
+        "value": "$global-accent.royal-blue.300",
         "type": "color",
         "description": "royal-blue/300"
       },
       "400": {
-        "value": "$accent.royal-blue.400",
+        "value": "$global-accent.royal-blue.400",
         "type": "color",
         "description": "royal-blue/400"
       },
       "500": {
-        "value": "$accent.royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue/100"
       },
       "600": {
-        "value": "$accent.royal-blue.100",
+        "value": "$global-accent.royal-blue.100",
         "type": "color",
         "description": "royal-blue/100"
       }
     },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, $accent.jade-green.400 0%, $accent.jade-green.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.jade-green.400 0%, $global-accent.jade-green.600 100%)",
         "type": "color",
         "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, $accent.royal-blue.400 0%, $accent.royal-blue.600 100%)",
+        "value": "linear-gradient(180deg, $global-accent.royal-blue.400 0%, $global-accent.royal-blue.600 100%)",
         "type": "color",
         "description": "gradient/cyan/01/200"
       }
