@@ -2112,7 +2112,81 @@
         }
       }
     },
+    "primary": {
+      "100": {
+        "value": "rgba($global-accent.blue.200, 10%)",
+        "type": "color",
+        "description": "accent/blue/100"
+      },
+      "200": {
+        "value": "rgba($global-accent.blue.200, 20%)",
+        "type": "color",
+        "description": "accent/blue/200"
+      },
+      "300": {
+        "value": "$global-accent.blue.300",
+        "type": "color",
+        "description": "accent/blue/300"
+      },
+      "400": {
+        "value": "$global-accent.blue.400",
+        "type": "color",
+        "description": "accent/blue/400"
+      },
+      "500": {
+        "value": "$global-accent.blue.500",
+        "type": "color",
+        "description": "accent/blue/500"
+      },
+      "600": {
+        "value": "$global-accent.blue.600",
+        "type": "color",
+        "description": "accent/blue/600"
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "rgba($global-accent.cyan.200, 10%)",
+        "type": "color",
+        "description": "global-accent/cyan/200, 10%"
+      },
+      "200": {
+        "value": "rgba($global-accent.cyan.200, 20%)",
+        "type": "color",
+        "description": "global-accent/cyan/200, 20%"
+      },
+      "300": {
+        "value": "$global-accent.cyan.300",
+        "type": "color",
+        "description": "global-accent/cyan/300"
+      },
+      "400": {
+        "value": "$global-accent.cyan.400",
+        "type": "color",
+        "description": "global-accent/cyan/400"
+      },
+      "500": {
+        "value": "$global-accent.cyan.500",
+        "type": "color",
+        "description": "global-accent/cyan/500"
+      },
+      "600": {
+        "value": "$global-accent.cyan.600",
+        "type": "color",
+        "description": "global-accent/cyan/600"
+      }
+    },
     "gradient": {
+      "primary": {
+        "value": "linear-gradient(180deg, $global-accent.blue.200 0%, $global-accent.blue.400 100%)",
+        "type": "color",
+        "description": "gradient/blue/01/200"
+      },
+      "secondary": {
+        "value": "linear-gradient(180deg, $global-accent.cyan.200 0%, $global-accent.cyan.400 100%)",
+        "type": "color",
+        "description": "gradient/cyan/01/200"
+      },
       "danger": {
         "value": "linear-gradient(180deg, $global-accent.red.200  0%, $global-accent.red.400 100%)",
         "type": "color",
@@ -2767,84 +2841,7 @@
       }
     }
   },
-  "blue-cyan-light": {
-    "primary": {
-      "100": {
-        "value": "rgba($global-accent.blue.200, 10%)",
-        "type": "color",
-        "description": "accent/blue/100"
-      },
-      "200": {
-        "value": "rgba($global-accent.blue.200, 20%)",
-        "type": "color",
-        "description": "accent/blue/200"
-      },
-      "300": {
-        "value": "$global-accent.blue.300",
-        "type": "color",
-        "description": "accent/blue/300"
-      },
-      "400": {
-        "value": "$global-accent.blue.400",
-        "type": "color",
-        "description": "accent/blue/400"
-      },
-      "500": {
-        "value": "$global-accent.blue.500",
-        "type": "color",
-        "description": "accent/blue/500"
-      },
-      "600": {
-        "value": "$global-accent.blue.600",
-        "type": "color",
-        "description": "accent/blue/600"
-      }
-    },
-    "secondary": {
-      "100": {
-        "value": "rgba($global-accent.cyan.200, 10%)",
-        "type": "color",
-        "description": "global-accent/cyan/200, 10%"
-      },
-      "200": {
-        "value": "rgba($global-accent.cyan.200, 20%)",
-        "type": "color",
-        "description": "global-accent/cyan/200, 20%"
-      },
-      "300": {
-        "value": "$global-accent.cyan.300",
-        "type": "color",
-        "description": "global-accent/cyan/300"
-      },
-      "400": {
-        "value": "$global-accent.cyan.400",
-        "type": "color",
-        "description": "global-accent/cyan/400"
-      },
-      "500": {
-        "value": "$global-accent.cyan.500",
-        "type": "color",
-        "description": "global-accent/cyan/500"
-      },
-      "600": {
-        "value": "$global-accent.cyan.600",
-        "type": "color",
-        "description": "global-accent/cyan/600"
-      }
-    },
-    "gradient": {
-      "primary": {
-        "value": "linear-gradient(180deg, $global-accent.blue.200 0%, $global-accent.blue.400 100%)",
-        "type": "color",
-        "description": "gradient/blue/01/200"
-      },
-      "secondary": {
-        "value": "linear-gradient(180deg, $global-accent.cyan.200 0%, $global-accent.cyan.400 100%)",
-        "type": "color",
-        "description": "gradient/cyan/01/200"
-      }
-    }
-  },
+
   "royal-blue-light": {
     "primary": {
       "100": {
@@ -3236,16 +3233,80 @@
         }
       }
     },
+    "primary": {
+      "100": {
+        "value": "rgba($global-accent.blue.200, 10%)",
+        "type": "color",
+        "description": "accent/blue/100"
+      },
+      "200": {
+        "value": "rgba($global-accent.blue.200, 20%)",
+        "type": "color",
+        "description": "accent/blue/200"
+      },
+      "300": {
+        "value": "$global-accent.blue.400",
+        "type": "color",
+        "description": "accent/blue/400"
+      },
+      "400": {
+        "value": "$global-accent.blue.300",
+        "type": "color",
+        "description": "accent/blue/300"
+      },
+      "500": {
+        "value": "$global-accent.blue.100",
+        "type": "color",
+        "description": "accent/blue/100"
+      },
+      "600": {
+        "value": "$global-accent.blue.100",
+        "type": "color",
+        "description": "accent/blue/100"
+      }
+    },
+    "secondary": {
+      "100": {
+        "value": "rgba($global-accent.cyan.200, 10%)",
+        "type": "color",
+        "description": "global-accent/cyan/200, 10%"
+      },
+      "200": {
+        "value": "rgba($global-accent.cyan.200, 20%)",
+        "type": "color",
+        "description": "global-accent/cyan/200, 20%"
+      },
+      "300": {
+        "value": "$global-accent.cyan.400",
+        "type": "color",
+        "description": "global-accent/cyan/400"
+      },
+      "400": {
+        "value": "$global-accent.cyan.300",
+        "type": "color",
+        "description": "global-accent/cyan/300"
+      },
+      "500": {
+        "value": "$global-accent.cyan.100",
+        "type": "color",
+        "description": "global-accent/cyan/100"
+      },
+      "600": {
+        "value": "$global-accent.cyan.100",
+        "type": "color",
+        "description": "global-accent/cyan/100"
+      }
+    },
     "gradient": {
       "primary": {
-        "value": "linear-gradient(180deg, #1b66b1 0%, #144d85 100%)",
+        "value": "linear-gradient(180deg, $global-accent.blue.400 0%, $global-accent.blue.600 100%)",
         "type": "color",
-        "description": "gradient/blue/02/400"
+        "description": "gradient/blue/01/200"
       },
       "secondary": {
-        "value": "linear-gradient(180deg, #1d89bf 0%, #166992 100%)",
+        "value": "linear-gradient(180deg, $global-accent.cyan.400 0%, $global-accent.cyan.600 100%)",
         "type": "color",
-        "description": "gradient/cyan/02/300"
+        "description": "gradient/cyan/01/200"
       },
       "danger": {
         "value": "linear-gradient(180deg, #a63830 0%, #7f2b25 100%)",
@@ -3910,84 +3971,8 @@
         "type": "boxShadow"
       }
     }
-  },
-  "blue-cyan-dark": {
-    "primary": {
-      "100": {
-        "value": "rgba($global-accent.blue.200, 10%)",
-        "type": "color",
-        "description": "accent/blue/100"
-      },
-      "200": {
-        "value": "rgba($global-accent.blue.200, 20%)",
-        "type": "color",
-        "description": "accent/blue/200"
-      },
-      "300": {
-        "value": "$global-accent.blue.400",
-        "type": "color",
-        "description": "accent/blue/400"
-      },
-      "400": {
-        "value": "$global-accent.blue.300",
-        "type": "color",
-        "description": "accent/blue/300"
-      },
-      "500": {
-        "value": "$global-accent.blue.100",
-        "type": "color",
-        "description": "accent/blue/100"
-      },
-      "600": {
-        "value": "$global-accent.blue.100",
-        "type": "color",
-        "description": "accent/blue/100"
-      }
-    },
-    "secondary": {
-      "100": {
-        "value": "rgba($global-accent.cyan.200, 10%)",
-        "type": "color",
-        "description": "global-accent/cyan/200, 10%"
-      },
-      "200": {
-        "value": "rgba($global-accent.cyan.200, 20%)",
-        "type": "color",
-        "description": "global-accent/cyan/200, 20%"
-      },
-      "300": {
-        "value": "$global-accent.cyan.400",
-        "type": "color",
-        "description": "global-accent/cyan/400"
-      },
-      "400": {
-        "value": "$global-accent.cyan.300",
-        "type": "color",
-        "description": "global-accent/cyan/300"
-      },
-      "500": {
-        "value": "$global-accent.cyan.100",
-        "type": "color",
-        "description": "global-accent/cyan/100"
-      },
-      "600": {
-        "value": "$global-accent.cyan.100",
-        "type": "color",
-        "description": "global-accent/cyan/100"
-      }
-    },
-    "gradient": {
-      "primary": {
-        "value": "linear-gradient(180deg, $global-accent.blue.400 0%, $global-accent.blue.600 100%)",
-        "type": "color",
-        "description": "gradient/blue/01/200"
-      },
-      "secondary": {
-        "value": "linear-gradient(180deg, $global-accent.cyan.400 0%, $global-accent.cyan.600 100%)",
-        "type": "color",
-        "description": "gradient/cyan/01/200"
-      }
-    }
+
+
   },
   "royal-blue-dark": {
     "primary": {
@@ -4145,7 +4130,7 @@
       }
     }
   },
-  "semantic-1": {
+  "common": {
     "text": {
       "base": {
         "accent": {
@@ -4339,9 +4324,7 @@
         "type": "color",
         "description": "accent/teal/600"
       }
-    }
-  },
-  "common": {
+    },
     "button": {
       "primary-bg": {
         "value": "$gradient.primary",
@@ -5128,11 +5111,9 @@
       "greys H200 S10",
       "greys H230 S10",
       "light-base",
-      "blue-cyan-light",
       "royal-blue-light",
       "green-blue-light",
       "dark-elevated",
-      "blue-cyan-dark",
       "royal-blue-dark",
       "green-blue-dark",
       "semantic-1",
