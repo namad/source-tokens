@@ -2974,69 +2974,139 @@
     }
   },
   "Common": {
-    "text": {
-      "base": {
-        "accent": {
-          "value": "$secondary.500",
-          "type": "color",
-          "description": "secondary/500"
+    "light": {
+      "text": {
+        "base": {
+          "accent": {
+            "value": "$secondary.500",
+            "type": "color",
+            "description": "secondary/500"
+          },
+          "action": {
+            "value": "$primary.500",
+            "type": "color",
+            "description": "primary/500"
+          },
+          "success": {
+            "value": "$success.500",
+            "type": "color",
+            "description": "success/500"
+          },
+          "warning": {
+            "value": "$warning.500",
+            "type": "color",
+            "description": "warning/500"
+          },
+          "danger": {
+            "value": "$danger.500",
+            "type": "color",
+            "description": "danger/500"
+          },
+          "info": {
+            "value": "$info.500",
+            "type": "color",
+            "description": "info/500"
+          }
         },
-        "action": {
-          "value": "$primary.500",
-          "type": "color",
-          "description": "primary/500"
-        },
-        "success": {
-          "value": "$success.500",
-          "type": "color",
-          "description": "success/500"
-        },
-        "warning": {
-          "value": "$warning.500",
-          "type": "color",
-          "description": "warning/500"
-        },
-        "danger": {
-          "value": "$danger.500",
-          "type": "color",
-          "description": "danger/500"
-        },
-        "info": {
-          "value": "$info.500",
-          "type": "color",
-          "description": "info/500"
+        "contrast": {
+          "accent": {
+            "value": "$secondary.600",
+            "type": "color",
+            "description": "secondary/600"
+          },
+          "action": {
+            "value": "$primary.600",
+            "type": "color",
+            "description": "primary/600"
+          },
+          "success": {
+            "value": "$success.600",
+            "type": "color",
+            "description": "success/600"
+          },
+          "warning": {
+            "value": "$warning.600",
+            "type": "color",
+            "description": "warning/600"
+          },
+          "danger": {
+            "value": "$danger.600",
+            "type": "color",
+            "description": "danger/600"
+          },
+          "info": {
+            "value": "$info.600",
+            "type": "color",
+            "description": "info/600"
+          }
         }
-      },
-      "contrast": {
-        "accent": {
-          "value": "$secondary.600",
-          "type": "color",
-          "description": "secondary/600"
+      }
+    },
+    "dark": {
+      "text": {
+        "base": {
+          "accent": {
+            "value": "$secondary.600",
+            "type": "color",
+            "description": "secondary/600"
+          },
+          "action": {
+            "value": "$primary.600",
+            "type": "color",
+            "description": "primary/600"
+          },
+          "success": {
+            "value": "$success.600",
+            "type": "color",
+            "description": "success/600"
+          },
+          "warning": {
+            "value": "$warning.600",
+            "type": "color",
+            "description": "warning/600"
+          },
+          "danger": {
+            "value": "$danger.600",
+            "type": "color",
+            "description": "danger/600"
+          },
+          "info": {
+            "value": "$info.600",
+            "type": "color",
+            "description": "info/600"
+          }
         },
-        "action": {
-          "value": "$primary.600",
-          "type": "color",
-          "description": "primary/600"
-        },
-        "success": {
-          "value": "$success.600",
-          "type": "color",
-          "description": "success/600"
-        },
-        "warning": {
-          "value": "$warning.600",
-          "type": "color",
-          "description": "warning/600"
-        },
-        "danger": {
-          "value": "$danger.600",
-          "type": "color",
-          "description": "danger/600"
-        },
-        "info": {
-          "value": "$info.600",
-          "type": "color",
-          "description": "info/600"
+        "contrast": {
+          "accent": {
+            "value": "$secondary.600",
+            "type": "color",
+            "description": "secondary/600"
+          },
+          "action": {
+            "value": "$primary.600",
+            "type": "color",
+            "description": "primary/600"
+          },
+          "success": {
+            "value": "$success.600",
+            "type": "color",
+            "description": "success/600"
+          },
+          "warning": {
+            "value": "$warning.600",
+            "type": "color",
+            "description": "warning/600"
+          },
+          "danger": {
+            "value": "$danger.600",
+            "type": "color",
+            "description": "danger/600"
+          },
+          "info": {
+            "value": "$info.600",
+            "type": "color",
+            "description": "info/600"
+          }
         }
       }
     }
