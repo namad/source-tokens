@@ -880,7 +880,7 @@
       "text": {
         "base": {
           "400": {
-            "value": "rgba($utility.black, 45%)",
+            "value": "rgba($light.utility.black, 45%)",
             "type": "color",
             "description": "utility/black, 45%"
           },
@@ -1187,32 +1187,32 @@
         },
         "shade": {
           "100": {
-            "value": "rgba($utility.black, 5%)",
+            "value": "rgba($light.utility.black, 5%)",
             "type": "color",
             "description": "utility/black, 5%"
           },
           "200": {
-            "value": "rgba($utility.black, 10%)",
+            "value": "rgba($light.utility.black, 10%)",
             "type": "color",
             "description": "utility/black, 10%"
           },
           "300": {
-            "value": "rgba($utility.black, 15%)",
+            "value": "rgba($light.utility.black, 15%)",
             "type": "color",
             "description": "utility/black, 15%"
           },
           "400": {
-            "value": "rgba($utility.black, 20%)",
+            "value": "rgba($light.utility.black, 20%)",
             "type": "color",
             "description": "utility/black, 20%"
           },
           "500": {
-            "value": "rgba($utility.black, 30%)",
+            "value": "rgba($light.utility.black, 30%)",
             "type": "color",
             "description": "utility/black, 30%"
           },
           "600": {
-            "value": "rgba($utility.black, 40%)",
+            "value": "rgba($light.utility.black, 40%)",
             "type": "color",
             "description": "utility/black, 40%"
           }
@@ -1451,34 +1451,34 @@
       "text": {
         "base": {
           "400": {
-            "value": "rgba($utility.white, 0.45)",
+            "value": "rgba($dark.utility.white, 0.45)",
             "type": "color",
             "description": "utility/white, 45%"
           },
           "500": {
-            "value": "rgba($utility.white, 0.65)",
+            "value": "rgba($dark.utility.white, 0.65)",
             "type": "color",
             "description": "utility/white, 65%"
           },
           "600": {
-            "value": "$utility.white",
+            "value": "$dark.utility.white",
             "type": "color",
             "description": "utility/white"
           }
         },
         "contrast": {
           "400": {
-            "value": "rgba($utility.white, 0.45)",
+            "value": "rgba($dark.utility.white, 0.45)",
             "type": "color",
             "description": "utility/white, 45%"
           },
           "500": {
-            "value": "rgba($utility.white, 0.65)",
+            "value": "rgba($dark.utility.white, 0.65)",
             "type": "color",
             "description": "utility/white, 65%"
           },
           "600": {
-            "value": "$utility.white",
+            "value": "$dark.utility.white",
             "type": "color",
             "description": "utility/white"
           }
