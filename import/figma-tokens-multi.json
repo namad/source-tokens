@@ -1248,7 +1248,7 @@
       }
     }
   },
-  "Light Theme 1": {
+  "Light Theme 2%": {
     "light": {
       "fill": {
         "base": {
@@ -1384,7 +1384,7 @@
       }
     }
   },
-  "Light Theme 2": {
+  "Light Theme 4%": {
     "light": {
       "fill": {
         "base": {
@@ -1959,7 +1959,7 @@
       }
     }
   },
-  "Dark Theme": {
+  "Dark Theme 2%": {
     "dark": {
       "fill": {
         "base": {
@@ -2470,7 +2470,7 @@
       }
     }
   },
-  "Dark Theme 2": {
+  "Dark Theme 4%": {
     "dark": {
       "fill": {
         "base": {
@@ -2612,11 +2612,11 @@
       "Global Accents",
       "Global Neutrals",
       "Ligh Common",
-      "Light Theme 1",
-      "Light Theme 2",
+      "Light Theme 2%",
+      "Light Theme 4%",
       "Dark Common",
-      "Dark Theme",
-      "Dark Theme 2"
+      "Dark Theme 2%",
+      "Dark Theme 4%"
     ]
   }
 }
