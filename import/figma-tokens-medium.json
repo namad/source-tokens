@@ -2973,7 +2973,7 @@
       }
     }
   },
-  "common": {
+  "Common": {
     "text": {
       "base": {
         "accent": {
@@ -3044,11 +3044,6 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "greys H230 S10",
-      "accents-light",
-      "light-base",
-      "dark-elevated",
-      "common"
     ]
   }
 }
