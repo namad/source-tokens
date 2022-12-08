@@ -73,91 +73,31 @@
                 "description": "utility/black, 45%"
             },
             "500": {
-                "value": "#0e1011b3",
+                "value": "rgba($utility.black, 65%)",
                 "type": "color",
-                "description": "utility/black, 70%"
+                "description": "utility/black, 65%"
             },
             "600": {
-                "value": "#0e1011",
+                "value": "$utility.black",
                 "type": "color",
                 "description": "utility/black"
-            },
-            "accent": {
-                "value": "#056fa3",
-                "type": "color",
-                "description": "secondary/500"
-            },
-            "action": {
-                "value": "#0559ad",
-                "type": "color",
-                "description": "primary/500"
-            },
-            "success": {
-                "value": "#0f7f5a",
-                "type": "color",
-                "description": "success/500"
-            },
-            "warning": {
-                "value": "#a0570d",
-                "type": "color",
-                "description": "warning/500"
-            },
-            "danger": {
-                "value": "#bc251b",
-                "type": "color",
-                "description": "danger/500"
-            },
-            "info": {
-                "value": "#108484",
-                "type": "color",
-                "description": "info/500"
             }
         },
         "contrast": {
             "400": {
-                "value": "#ffffff73",
+                "value": "rgba($utility.white, 45%)",
                 "type": "color",
                 "description": "utility/white, 45%"
             },
             "500": {
-                "value": "#ffffffa6",
+                "value": "rgba($utility.white, 65%)",
                 "type": "color",
                 "description": "utility/white, 65%"
             },
             "600": {
-                "value": "#ffffff",
+                "value": "$utility.white",
                 "type": "color",
                 "description": "utility/white"
-            },
-            "accent": {
-                "value": "#61c7fa",
-                "type": "color",
-                "description": "secondary/600"
-            },
-            "action": {
-                "value": "#6bb3fa",
-                "type": "color",
-                "description": "primary/600"
-            },
-            "success": {
-                "value": "#51d6aa",
-                "type": "color",
-                "description": "success/600"
-            },
-            "warning": {
-                "value": "#f1b87e",
-                "type": "color",
-                "description": "warning/600"
-            },
-            "danger": {
-                "value": "#f0999d",
-                "type": "color",
-                "description": "danger/600"
-            },
-            "info": {
-                "value": "#51d6d6",
-                "type": "color",
-                "description": "info/600"
             }
         }
     },
