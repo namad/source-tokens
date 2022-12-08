@@ -999,7 +999,7 @@
         "description": "accent/blue/500"
       },
       "600": {
-        "value": "$global-accent.blue.600",
+        "value": "$global-accent.blue.100",
         "type": "color",
         "description": "accent/blue/600"
       }
@@ -1031,7 +1031,7 @@
         "description": "global-accent/cyan/500"
       },
       "600": {
-        "value": "$global-accent.cyan.600",
+        "value": "$global-accent.cyan.100",
         "type": "color",
         "description": "global-accent/cyan/600"
       }
