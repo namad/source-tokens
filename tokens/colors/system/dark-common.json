@@ -1,246 +1,508 @@
 {
-  "text": {
-    "base": {
-      "400": {
-        "$value": "rgba(#FFFFFF, 0.45)",
-        "$type": "color"
-      },
-      "500": {
-        "$value": "rgba(#FFFFFF, 0.65)",
-        "$type": "color"
-      },
-      "600": {
-        "$value": "#FFFFFF",
-        "$type": "color"
-      },
-      "action": {
-        "$value": "{primary.500}",
-        "$type": "color"
-      },
-      "info": {
-        "$value": "{info.500}",
-        "$type": "color"
-      },
-      "success": {
-        "$value": "{success.500}",
-        "$type": "color"
-      },
-      "warning": {
-        "$value": "{warning.500}",
-        "$type": "color"
-      },
-      "danger": {
-        "$value": "{danger.500}",
-        "$type": "color"
-      }
+    "text": {
+        "base": {
+            "400": {
+                "$value": "rgba(#FFFFFF, 0.45)",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "rgba(#FFFFFF, 0.65)",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "#FFFFFF",
+                "$type": "color"
+            },
+            "action": {
+                "$value": "{primary.500}",
+                "$type": "color"
+            },
+            "info": {
+                "$value": "{info.500}",
+                "$type": "color"
+            },
+            "success": {
+                "$value": "{success.500}",
+                "$type": "color"
+            },
+            "warning": {
+                "$value": "{warning.500}",
+                "$type": "color"
+            },
+            "danger": {
+                "$value": "{danger.500}",
+                "$type": "color"
+            }
+        },
+        "contrast": {
+            "400": {
+                "$value": "rgba(#FFFFFF, 0.45)",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "rgba(#FFFFFF, 0.65)",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "#FFFFFF",
+                "$type": "color"
+            },
+            "action": {
+                "$value": "{primary.600}",
+                "$type": "color"
+            },
+            "info": {
+                "$value": "{info.600}",
+                "$type": "color"
+            },
+            "success": {
+                "$value": "{success.600}",
+                "$type": "color"
+            },
+            "warning": {
+                "$value": "{warning.600}",
+                "$type": "color"
+            },
+            "danger": {
+                "$value": "{danger.600}",
+                "$type": "color"
+            }
+        }
     },
-    "contrast": {
-      "400": {
-        "$value": "rgba(#FFFFFF, 0.45)",
-        "$type": "color"
-      },
-      "500": {
-        "$value": "rgba(#FFFFFF, 0.65)",
-        "$type": "color"
-      },
-      "600": {
-        "$value": "#FFFFFF",
-        "$type": "color"
-      },
-      "action": {
-        "$value": "{primary.600}",
-        "$type": "color"
-      },
-      "info": {
-        "$value": "{info.600}",
-        "$type": "color"
-      },
-      "success": {
-        "$value": "{success.600}",
-        "$type": "color"
-      },
-      "warning": {
-        "$value": "{warning.600}",
-        "$type": "color"
-      },
-      "danger": {
-        "$value": "{danger.600}",
-        "$type": "color"
-      }
+    "alt": {
+        "base": {
+            "100": {
+                "$value": "rgba({global.grey-78}, 0.04)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "200": {
+                "$value": "rgba({global.grey-78}, 0.08)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "300": {
+                "$value": "rgba({global.grey-78}, 0.12)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "400": {
+                "$value": "rgba({global.grey-78}, 0.16)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "500": {
+                "$value": "rgba({global.grey-78}, 0.24)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "600": {
+                "$value": "rgba({global.grey-78}, 0.32)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            }
+        },
+        "contrast": {
+            "100": {
+                "$value": "rgba({global.grey-78}, 0.04)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "200": {
+                "$value": "rgba({global.grey-78}, 0.08)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "300": {
+                "$value": "rgba({global.grey-78}, 0.12)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "400": {
+                "$value": "rgba({global.grey-78}, 0.16)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "500": {
+                "$value": "rgba({global.grey-78}, 0.24)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "600": {
+                "$value": "rgba({global.grey-78}, 0.32)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            }
+        }
+    },
+    "utility": {
+        "white": {
+            "$value": "{global.grey-100}",
+            "$type": "color"
+        },
+        "black": {
+            "$value": "{global.grey-4}",
+            "$type": "color"
+        },
+        "transparent": {
+            "$value": "rgba(0, 0, 0, 0)",
+            "$type": "color"
+        },
+        "shade": {
+            "100": {
+                "$value": "rgba(#000000, 0.10)",
+                "$type": "color"
+            },
+            "200": {
+                "$value": "rgba(#000000, 0.2)",
+                "$type": "color"
+            },
+            "300": {
+                "$value": "rgba(#000000, 0.3)",
+                "$type": "color"
+            },
+            "400": {
+                "$value": "rgba(#000000, 0.4)",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "rgba(#000000, 0.5)",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "rgba(#000000, 0.6)",
+                "$type": "color"
+            }
+        },
+        "tint": {
+            "100": {
+                "$value": "rgba({global.grey-78}, 0.03)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "200": {
+                "$value": "rgba({global.grey-78}, 0.05)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "300": {
+                "$value": "rgba({global.grey-78}, 0.07)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "400": {
+                "$value": "rgba({global.grey-78}, 0.10)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "500": {
+                "$value": "rgba({global.grey-78}, 0.14)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            },
+            "600": {
+                "$value": "rgba({global.grey-78}, 0.20)",
+                "$type": "color",
+                "adjustments": {
+                    "s": "*2"
+                }
+            }
+        }
+    },
+    "accent": {
+        "red": {
+            "100": {
+                "$value": "rgba({global.accent.red.200}, 0.20)",
+                "$type": "color"
+            },
+            "200": {
+                "$value": "rgba({global.accent.red.200}, 0.40)",
+                "$type": "color"
+            },
+            "300": {
+                "$value": "{global.accent.red.300}",
+                "$type": "color"
+            },
+            "400": {
+                "$value": "{global.accent.red.400}",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "{global.accent.red.500}",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "{global.accent.red.100}",
+                "$type": "color"
+            }
+        },
+        "amber": {
+            "100": {
+                "$value": "rgba({global.accent.amber.200}, 0.20)",
+                "$type": "color"
+            },
+            "200": {
+                "$value": "rgba({global.accent.amber.200}, 0.40)",
+                "$type": "color"
+            },
+            "300": {
+                "$value": "{global.accent.amber.300}",
+                "$type": "color"
+            },
+            "400": {
+                "$value": "{global.accent.amber.400}",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "{global.accent.amber.500}",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "{global.accent.amber.100}",
+                "$type": "color"
+            }
+        },
+        "brown": {
+            "100": {
+                "$value": "rgba({global.accent.brown.200}, 0.20)",
+                "$type": "color"
+            },
+            "200": {
+                "$value": "rgba({global.accent.brown.200}, 0.40)",
+                "$type": "color"
+            },
+            "300": {
+                "$value": "{global.accent.brown.300}",
+                "$type": "color"
+            },
+            "400": {
+                "$value": "{global.accent.brown.400}",
+                "$type": "color"
+            },
+            "500": {
+                "$value": "{global.accent.brown.500}",
+                "$type": "color"
+            },
+            "600": {
+                "$value": "{global.accent.brown.100}",
+                "$type": "color"
+            },
+            "green": {
+                "100": {
+                    "$value": "rgba({global.accent.green.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.green.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.green.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.green.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.green.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.green.100}",
+                    "$type": "color"
+                }
+            },
+            "teal": {
+                "100": {
+                    "$value": "rgba({global.accent.teal.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.teal.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.teal.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.teal.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.teal.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.teal.100}",
+                    "$type": "color"
+                }
+            },
+            "blue": {
+                "100": {
+                    "$value": "rgba({global.accent.blue.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.blue.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.blue.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.blue.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.blue.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.blue.100}",
+                    "$type": "color"
+                }
+            },
+            "indigo": {
+                "100": {
+                    "$value": "rgba({global.accent.indigo.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.indigo.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.indigo.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.indigo.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.indigo.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.indigo.100}",
+                    "$type": "color"
+                }
+            },
+            "violet": {
+                "100": {
+                    "$value": "rgba({global.accent.violet.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.violet.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.violet.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.violet.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.violet.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.violet.100}",
+                    "$type": "color"
+                }
+            },
+            "purple": {
+                "100": {
+                    "$value": "rgba({global.accent.purple.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.purple.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.purple.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.purple.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.purple.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.purple.100}",
+                    "$type": "color"
+                }
+            },
+            "pink": {
+                "100": {
+                    "$value": "rgba({global.accent.pink.200}, 0.20)",
+                    "$type": "color"
+                },
+                "200": {
+                    "$value": "rgba({global.accent.pink.200}, 0.40)",
+                    "$type": "color"
+                },
+                "300": {
+                    "$value": "{global.accent.pink.300}",
+                    "$type": "color"
+                },
+                "400": {
+                    "$value": "{global.accent.pink.400}",
+                    "$type": "color"
+                },
+                "500": {
+                    "$value": "{global.accent.pink.500}",
+                    "$type": "color"
+                },
+                "600": {
+                    "$value": "{global.accent.pink.100}",
+                    "$type": "color"
+                }
+            }
+        }
     }
-  },
-  "alt": {
-    "base": {
-      "100": {
-        "$value": "rgba({grey-78}, 0.04)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "200": {
-        "$value": "rgba({grey-78}, 0.08)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "300": {
-        "$value": "rgba({grey-78}, 0.12)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "400": {
-        "$value": "rgba({grey-78}, 0.16)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "500": {
-        "$value": "rgba({grey-78}, 0.24)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "600": {
-        "$value": "rgba({grey-78}, 0.32)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      }
-    },
-    "contrast": {
-      "100": {
-        "$value": "rgba({grey-78}, 0.04)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "200": {
-        "$value": "rgba({grey-78}, 0.08)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "300": {
-        "$value": "rgba({grey-78}, 0.12)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "400": {
-        "$value": "rgba({grey-78}, 0.16)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "500": {
-        "$value": "rgba({grey-78}, 0.24)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "600": {
-        "$value": "rgba({grey-78}, 0.32)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      }
-    }
-  },
-  "utility": {
-    "white": {
-      "$value": "{grey-100}",
-      "$type": "color"
-    },
-    "black": {
-      "$value": "{grey-4}",
-      "$type": "color"
-    },
-    "transparent": {
-      "$value": "rgba(0, 0, 0, 0)",
-      "$type": "color"
-    },  
-    "shade": {
-      "100": {
-        "$value": "rgba(#000000, 0.10)",
-        "$type": "color"
-      },
-      "200": {
-        "$value": "rgba(#000000, 0.2)",
-        "$type": "color"
-      },
-      "300": {
-        "$value": "rgba(#000000, 0.3)",
-        "$type": "color"
-      },
-      "400": {
-        "$value": "rgba(#000000, 0.4)",
-        "$type": "color"
-      },
-      "500": {
-        "$value": "rgba(#000000, 0.5)",
-        "$type": "color"
-      },
-      "600": {
-        "$value": "rgba(#000000, 0.6)",
-        "$type": "color"
-      }
-    },
-    "tint": {
-      "100": {
-        "$value": "rgba({grey-78}, 0.03)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "200": {
-        "$value": "rgba({grey-78}, 0.05)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "300": {
-        "$value": "rgba({grey-78}, 0.07)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "400": {
-        "$value": "rgba({grey-78}, 0.10)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "500": {
-        "$value": "rgba({grey-78}, 0.14)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      },
-      "600": {
-        "$value": "rgba({grey-78}, 0.20)",
-        "$type": "color",
-        "adjustments": {
-          "s": "*2"
-        }
-      }
-    }
-  }
 }

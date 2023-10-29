@@ -2,53 +2,53 @@
   "fill": {
     "base": {
       "100": {
-        "$value": "{grey-8}",
+        "$value": "{global.grey-100}",
         "$type": "color"
       },
       "200": {
-        "$value": "{grey-12}",
+        "$value": "{global.grey-97}",
         "$type": "color"
       },
       "300": {
-        "$value": "{grey-16}",
+        "$value": "{global.grey-94}",
         "$type": "color"
       },
       "400": {
-        "$value": "{grey-20}",
+        "$value": "{global.grey-91}",
         "$type": "color"
       },
       "500": {
-        "$value": "{grey-24}",
+        "$value": "{global.grey-88}",
         "$type": "color"
       },
       "600": {
-        "$value": "{grey-28}",
+        "$value": "{global.grey-82}",
         "$type": "color"
       }
     },
     "contrast": {
       "100": {
-        "$value": "{grey-16}",
+        "$value": "{global.grey-19}",
         "$type": "color"
       },
       "200": {
-        "$value": "{grey-20}",
+        "$value": "{global.grey-16}",
         "$type": "color"
       },
       "300": {
-        "$value": "{grey-24}",
+        "$value": "{global.grey-13}",
         "$type": "color"
       },
       "400": {
-        "$value": "{grey-28}",
+        "$value": "{global.grey-10}",
         "$type": "color"
       },
       "500": {
-        "$value": "{grey-32}",
+        "$value": "{global.grey-7}",
         "$type": "color"
       },
       "600": {
-        "$value": "{grey-36}",
+        "$value": "{global.grey-4}",
         "$type": "color"
       }
     }
@@ -56,42 +56,42 @@
   "stroke": {
     "base": {
       "100": {
-        "$value": "{grey-20}",
+        "$value": "{global.grey-92}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "200": {
-        "$value": "{grey-24}",
+        "$value": "{global.grey-89}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "300": {
-        "$value": "{grey-28}",
+        "$value": "{global.grey-86}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "400": {
-        "$value": "{grey-32}",
+        "$value": "{global.grey-83}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "500": {
-        "$value": "{grey-40}",
+        "$value": "{global.grey-73}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "600": {
-        "$value": "{grey-48}",
+        "$value": "{global.grey-55}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
@@ -100,42 +100,42 @@
     },
     "contrast": {
       "100": {
-        "$value": "{grey-28}",
+        "$value": "{global.grey-34}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "200": {
-        "$value": "{grey-32}",
+        "$value": "{global.grey-37}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "300": {
-        "$value": "{grey-36}",
+        "$value": "{global.grey-40}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "400": {
-        "$value": "{grey-40}",
+        "$value": "{global.grey-43}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "500": {
-        "$value": "{grey-48}",
+        "$value": "{global.grey-49}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"
         }
       },
       "600": {
-        "$value": "{grey-56}",
+        "$value": "{global.grey-55}",
         "$type": "color",
         "adjustments": {
           "s": "*0.6"

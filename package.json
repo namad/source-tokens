@@ -1,0 +1,23 @@
+{
+  "name": "source-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for Source design system",
+  "main": "",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namad/source-tokens.git"
+  },
+  "keywords": [
+    "design tokens",
+    "design system",
+    "json"
+  ],
+  "author": "Pavel Kiselev",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/namad/source-tokens/issues"
+  },
+  "homepage": "https://github.com/namad/source-tokens#readme"
+}
